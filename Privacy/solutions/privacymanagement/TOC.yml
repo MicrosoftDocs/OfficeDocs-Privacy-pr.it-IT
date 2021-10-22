@@ -1,2 +1,38 @@
-- name: Indice
-  href: null
+- name: Informazioni sulla gestione della privacy
+  href: privacy-management.md
+- name: Informazioni sulla versione di valutazione gratutita per la gestione della privacy
+  href: privacy-management-trial.md
+- name: Introduzione alla gestione della privacy
+  href: privacy-management-setup.md
+- name: Configurare le autorizzazioni utente nella gestione della privacy
+  href: privacy-management-permissions.md
+- name: Configurare le impostazioni di gestione della privacy
+  href: privacy-management-settings.md
+- name: Trovare e visualizzare i dati personali nella gestione della privacy
+  href: privacy-management-data-profile.md
+- name: Gestire i rischi con i criteri nella gestione della privacy
+  items:
+    - name: Informazioni sulle informative sulla privacy
+      href: privacy-management-policies.md
+    - name: Creare e personalizzare i criteri
+      href: privacy-management-policies-create.md
+    - name: Gestire i criteri
+      href: privacy-management-policies-manage.md
+    - name: Informazioni su avvisi e problemi relativi ai criteri
+      href: privacy-management-policies-issues.md
+    - name: Inviare notifiche ai criteri degli utenti
+      href: privacy-management-policies-notifications.md
+- name: Gestire le richieste di diritti dell'oggetto
+  items:
+    - name: Informazioni sulle richieste dei diritti degli interessati
+      href: privacy-management-subject-rights-requests.md
+    - name: Automatizzare le richieste di diritti degli interessati
+      href: privacy-management-subject-rights-requests-create.md
+    - name: Gestire la corrispondenza dei dati per le richieste di diritti dell'interessato
+      href: privacy-management-subject-rights-requests-data-matching.md
+    - name: Esaminare i dati e collaborare alle richieste di diritti degli interessati
+      href: privacy-management-subject-rights-requests-review.md
+    - name: Gestire i report sulle richieste di diritti degli interessati e soddisfare le richieste
+      href: privacy-management-subject-rights-requests-fulfill.md
+    - name: Automatizzare le attività relative alle richieste di diritti degli interessati
+      href: privacy-management-subject-rights-requests-automate-tasks.md
