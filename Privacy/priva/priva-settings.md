@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulle opzioni delle impostazioni globali per Microsoft Priva.
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248964"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542824"
 ---
 # <a name="configure-priva-settings"></a>Configurare le impostazioni di Priva
 
-Puoi gestire le impostazioni per Microsoft Priva selezionando l'icona a forma di ingranaggio nell'angolo in alto a destra dello schermo. Le opzioni qui consentono di impostare preferenze di alto livello e personalizzare le proprietà chiave. In questa pagina viene fornita una panoramica delle principali Impostazioni categorie.
+Puoi gestire le impostazioni per Microsoft Priva selezionando l'icona a forma di ingranaggio nell'angolo in alto a destra dello schermo. Le opzioni qui consentono di impostare preferenze di alto livello e personalizzare le proprietà chiave. In questa pagina viene fornita una panoramica delle categorie Impostazioni principali.
 
 ## <a name="anonymization"></a>Anonimizzazione
 
@@ -38,7 +38,7 @@ I criteri in Gestione dei rischi per la privacy consentono di impostare i parame
 
 ## <a name="teams-collaboration"></a>Collaborazione in Teams  
 
-Integrare Microsoft Teams funzionalità con Priva Subject Rights Requests per migliorare la collaborazione con gli stakeholder. Ogni volta che viene creata una richiesta di diritti dell'oggetto, verrà creato un team associato in Teams. Gli utenti possono essere aggiunti a un team dalla scheda Collaboratori della richiesta. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Informazioni su Priva Subject Rights Requests](subject-rights-requests.md).
+Integrare Microsoft Teams funzionalità con Priva Subject Rights Requests per migliorare la collaborazione con gli stakeholder. Ogni volta che viene creata una richiesta di diritti dell'oggetto, verrà creato un team associato Teams. Gli utenti possono essere aggiunti a un team dalla scheda Collaboratori della richiesta. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Informazioni su Priva Subject Rights Requests](subject-rights-requests.md).
 
 ## <a name="data-matching"></a>Corrispondenza dati  
 
@@ -46,7 +46,7 @@ Utilizzare questa sezione per caricare schemi di dati che descrivono gli attribu
 
 ## <a name="data-retention-periods"></a>Periodi di conservazione dei dati
 
-Questa impostazione è correlata a Priva Subject Rights Requests. Consente di controllare la preferenza per quanto tempo si desidera conservare i dati raccolti e i report generati dopo la chiusura della richiesta. Può essere impostato su 30 o 90 giorni. Verificare che questi periodi di conservazione dei dati siano conformi ai criteri e agli obblighi legali. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Informazioni su Priva Subject Rights Requests](subject-rights-requests.md).
+Questa impostazione è correlata a Priva Subject Rights Requests. Consente di controllare la preferenza per quanto tempo si desidera conservare i dati raccolti e i report generati dopo la chiusura della richiesta. Può essere impostato su 30 o 90 giorni e si applica a tutte le richieste di diritti dell'oggetto create. È consigliabile verificare che i periodi di conservazione dei dati siano conformi ai criteri e agli obblighi legali dell'organizzazione. Ulteriori informazioni [sull'impostazione della conservazione dei dati per le richieste di diritti dell'oggetto](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Tag di revisione dei dati
 

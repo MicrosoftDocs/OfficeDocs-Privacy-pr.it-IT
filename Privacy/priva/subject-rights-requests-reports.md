@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come gestire i pacchetti di dati creati da Microsoft Priva per le richieste di diritti dell'oggetto ed eseguire la richiesta all'oggetto dei dati.
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249047"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542834"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Generare report ed soddisfare una richiesta di diritti dell'oggetto
 
-Dopo aver completato la revisione dei dati per una richiesta di diritti dell'oggetto in Microsoft Priva, puoi passare alla richiesta di evasione. Priva creerà report e raccoglierà i file contrassegnati per **Include** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati al soggetto dei dati per completare la richiesta. Priva supporta anche l'API per le richieste di diritti Microsoft 365 soggetto per introdurre funzionalità di automazione.
+Dopo aver completato la revisione dei dati per una richiesta di diritti dell'oggetto in Microsoft Priva, puoi passare alla richiesta di evasione. Priva creerà report e raccoglierà i file contrassegnati per **Include** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati al soggetto dei dati per completare la richiesta. Priva supporta anche l'api per le richieste di diritti Microsoft 365 soggetto per introdurre funzionalità di automazione.
 
 ## <a name="prepare-final-reports-for-the-data-subject"></a>Preparare i report finali per l'oggetto dei dati
 
@@ -41,22 +41,28 @@ Apri questa cartella, quindi apri il file **AEDExport.zip** file. I contenuti in
 
 - La **Extracted_text_files** contiene il testo estratto dai file nativi (se supportato).
 - La **cartella NativeFiles** contiene tutti gli **elementi inclusi** nel formato di file nativo.
-- I file redacted sono nella **cartella NativeFiles** e hanno il suffisso "_burn.pdf".
-- I file esportati vengono rinominati utilizzando identificatori univoci per proteggere i dati personali. È possibile creare riferimenti incrociati ai nomi univoci con i nomi di file originali **utilizzando** ilExport_load_file.csv. Poiché i nomi dei file originali possono includere informazioni riservate, è consigliabile seguire i criteri applicabili a tali informazioni.
+- I file redatti sono nella **cartella NativeFiles** e hanno il suffisso "_burn.pdf".
+- I file esportati vengono rinominati utilizzando identificatori univoci per proteggere i dati personali. È possibile eseguire il cross-reference dei nomi univoci con i nomi di file originali utilizzando il metodo **Export_load_file.csv**. Poiché i nomi dei file originali possono includere informazioni riservate, è consigliabile seguire i criteri applicabili a tali informazioni.
 
 Dopo aver esaminato il contenuto del file ZIP, modificarlo in base alle esigenze per rimuovere tutti i contenuti che non si desidera includere nel pacchetto finale. Al termine, inviarlo in modo sicuro all'oggetto dei dati.
 
 ## <a name="integrate-with-partner-solutions"></a>Integrazione con soluzioni partner
 
-Puoi integrare la soluzione Priva Subject Rights Requests con i processi e gli strumenti aziendali esistenti sfruttando l'API Microsoft 365 subject rights request. Questo offre un modo semplice ma potente per introdurre l'automazione nella strategia per i diritti dell'oggetto.
+Puoi integrare la soluzione Priva Subject Rights Requests con i processi e gli strumenti aziendali esistenti sfruttando l'API per le richieste di diritti Microsoft 365 soggetto. Questo offre un modo semplice ma potente per introdurre l'automazione nella strategia per i diritti dell'oggetto.
 
-Quando gli interessati richiedono informazioni all'organizzazione, puoi sfruttare le API per creare tali richieste all'interno di Microsoft 365 in base ai criteri personalizzati per tale richiesta. Puoi creare la richiesta di diritti dell'oggetto in Microsoft 365, tenere traccia dell'avanzamento della richiesta attraverso le sue fasi e confermare quando la richiesta ha completato l'elaborazione e il contenuto è pronto per il recupero. Le NOSTRE API sono disponibili per chiunque possa usare per rendere le proprie soluzioni più estensibile: che si tratta di ISV, partner che possono ospitare Microsoft 365 nelle proprie soluzioni o per le organizzazioni da usare con le applicazioni line-of-business.
+Quando gli interessati richiedono informazioni all'organizzazione, puoi sfruttare le API per creare tali richieste all'interno di Microsoft 365 in base ai criteri personalizzati per tale richiesta. Puoi creare la richiesta di diritti dell'oggetto in Microsoft 365, tenere traccia dell'avanzamento della richiesta attraverso le sue fasi e confermare quando la richiesta ha completato l'elaborazione e il contenuto è pronto per il recupero. Le NOSTRE API sono disponibili per tutti gli utenti per rendere le proprie soluzioni più estensibile: che si tratta di ISV, partner che possono ospitare Microsoft 365 nelle proprie soluzioni o per le organizzazioni da usare con le applicazioni line-of-business.
 
 Per altre informazioni, vedi [Usare l'API per la richiesta di diritti Graph microsoft](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview).
 
 ## <a name="manage-data-retention"></a>Gestire la conservazione dei dati
 
-I report generati tramite questo strumento e i dati associati, ad esempio i file con annotazioni salvati in Azure, vengono archiviati per un periodo di tempo specificato. Questa durata viene definita a livello globale tramite Impostazioni nella  sezione Periodi di conservazione dei dati, che consente di scegliere tra 30 e 90 giorni. Verificare che questi periodi di conservazione dei dati siano conformi ai criteri e agli obblighi legali.
+I report generati tramite questo strumento e i dati associati, ad esempio i file con annotazioni salvati in Azure, vengono archiviati per un periodo di tempo specificato. Il periodo di conservazione dei dati è definito in Priva **Impostazioni** e si applica a tutte le richieste di diritti dell'oggetto. Per visualizzare o modificare i periodi di conservazione dei dati, eseguire la procedura seguente:
+
+1. Da qualsiasi punto in Priva Subject Rights Requests, **seleziona Impostazioni** (l'icona a forma di ingranaggio) nell'angolo in alto a destra dello schermo.
+2. Selezionare **Periodi di conservazione dei dati** nella barra di spostamento sinistra.
+3. Usando il menu a discesa, selezionare 30 o 90 giorni come periodo di conservazione.
+
+Assicurarsi di verificare che i periodi di conservazione dei dati scelti siano conformi ai criteri e agli obblighi legali dell'organizzazione.
 
 ## <a name="legal-disclaimer"></a>Dichiarazione di non responsabilità legale
 

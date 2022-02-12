@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come esaminare i dati delle richieste di diritti dell'oggetto raccolti da Microsoft Priva e collaborare al completamento della richiesta.
-ms.openlocfilehash: cac4064a1e0dc2860d061748793a91c0b86e0896
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249042"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542844"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Esaminare i dati per una richiesta di diritti dell'oggetto
 
@@ -29,7 +29,7 @@ Dopo aver creato una richiesta per i diritti dell'oggetto [(ulteriori](subject-r
 
 ## <a name="step-1-review-request-details-and-monitor-progress"></a>Passaggio 1: esaminare i dettagli della richiesta e monitorare lo stato
 
-Per visualizzare i risultati iniziali della ricerca, passare all'area Priva del [Centro conformità Microsoft 365 e aprire](https://compliance.microsoft.com/) **Le richieste di diritti dell'oggetto**. In questa pagina principale è disponibile un elenco di tutte le richieste di diritti dell'oggetto aperte.
+Per visualizzare i risultati iniziali della ricerca, passare all'area Priva del [Centro conformità Microsoft 365 e aprire](https://compliance.microsoft.com/) **Richieste di diritti dell'oggetto**. In questa pagina principale è disponibile un elenco di tutte le richieste di diritti dell'oggetto aperte.
 
 Seleziona la richiesta nell'elenco per visualizzare i dettagli della richiesta. Qui puoi trovare altre informazioni sulle proprietà della richiesta, sui risultati della ricerca e sullo stato della richiesta. Questa pagina diventerà il tuo hub per lavorare e collaborare alla gestione dei file trovati, alla creazione di report ed esportazioni e al completamento della richiesta.
 
@@ -46,12 +46,31 @@ Le richieste di diritti dell'oggetto vengono sottoposte a più fasi. Alcuni avan
 
 Poiché potrebbe essere necessario lavorare sulle richieste nel tempo o da più collaboratori, Priva fornisce aggiornamenti continui sullo stato e indicazioni sui passaggi successivi da eseguire. Questi aggiornamenti possono essere visualizzati nella pagina panoramica della richiesta di diritti dell'oggetto.
 
-1. **Data estimate**: After a request is created, Priva identifies items that include potential matches to your data subject and makes notes of their locations in Microsoft 365. Al termine della stima dei dati, avanzerai automaticamente per recuperare i **dati, a** meno che non si siano verificati errori o la richiesta non sia impostata per la sospensione qui per la revisione dell'amministratore.
-   - La richiesta potrebbe essere impostata per richiedere la revisione dell'amministratore in questa fase. Se l'amministratore determina che i risultati iniziali della query di ricerca sono soddisfacenti, è possibile procedere al recupero dei dati. Se si desidera apportare modifiche prima di procedere, è possibile scegliere di modificare prima la query di ricerca. Per informazioni dettagliate, vedere passaggio 2. Non sarà possibile modificare la query di ricerca dopo aver avviato la fase di recupero dei dati.
-   - Se la query di ricerca restituisce una stima dei dati di grandi dimensioni, ovvero è superiore alla soglia consigliata di Priva per le dimensioni o il conteggio dei file, è possibile provare a rivedere la ricerca per affinare l'ambito. Tieni presente che i file associati a un elemento corrispondente (ad esempio, i file allegati in un messaggio di posta elettronica) potrebbero essere conteggiati per il totale. Le stime dei dati superiori al massimo della stima dei dati di grandi dimensioni richiederanno una revisione della ricerca per procedere.
-1. **Recuperare i** dati: questa fase indica che Priva è in fase di recupero dei dati. Al termine, avanzerà automaticamente per esaminare **i dati**.
-1. **Esaminare i** dati: in questa fase, i collaboratori devono esaminare i risultati nella scheda  Dati raccolti ed eseguire tutte le attività applicabili come la redazione, l'applicazione di tag e l'aggiunta di note. Al termine della revisione, selezionare **Completa revisione**.
-1. **Generare report**: i report vengono generati in questa fase. Al termine, questi elementi sono disponibili nella **scheda** Report. I file finiti possono essere esportati per la revisione finale e la consegna all'utente che ha effettuato la richiesta.
+#### <a name="data-estimate"></a>Stima dei dati
+Dopo aver creato una richiesta, Priva inizia immediatamente a cercare potenziali corrispondenze all'oggetto dei dati nell'Microsoft 365 ambiente. Dopo aver identificato tutti gli elementi che pensiamo corrispondano ai criteri, vedrai la stima nella scheda riepilogo Stima dati  nella pagina **Panoramica della** richiesta. La quantità di dati nell'ambito della ricerca influirà sul tempo necessario per completare la stima.
+
+La richiesta verrà spostata automaticamente alla fase successiva di recupero dei dati, in cui tutti gli elementi di contenuto vengono raccolti insieme in modo che la parte interessata possa collaborare alla revisione dei dati. Tuttavia, in alcuni casi la stima dei dati verrà sospesa prima di passare al recupero e verranno notificati i passaggi successivi da eseguire prima di continuare.
+
+Puoi anche scegliere di sospendere automaticamente nella fase di stima dei dati quando crei per la prima volta una richiesta di diritti dell'oggetto. Durante il processo di creazione, selezionare **l'opzione Ottieni prima** una stima durante il **passaggio Impostazioni di** ricerca. Esaminare i dettagli sul passaggio [delle impostazioni di ricerca](subject-rights-requests-create.md#define-search-settings).
+
+#### <a name="pause-in-data-estimate-for-large-search-results"></a>Sospendere la stima dei dati per risultati di ricerca di grandi dimensioni
+
+Priva noterà se la stima dei dati è proiettata per restituire una grande quantità di elementi da rivedere (oltre 10.000 elementi). La stima verrà sospesa in modo da poter visualizzare in anteprima i risultati e decidere se modificare la [query di ricerca](subject-rights-requests-create.md#refine-your-search) in modo che punti a posizioni o condizioni più specifiche o continuare a recuperare gli elementi identificati.  Ti mostreremo sullo schermo il numero di elementi e il volume di dati che corrispondono alla tua ricerca. Nella barra dei messaggi nella parte superiore dello schermo sono disponibili una o entrambe le opzioni seguenti:
+
+- Un **pulsante Modifica query** di ricerca consente di accedere direttamente alle impostazioni di ricerca della richiesta per impostare parametri più rigorosi e generare una nuova stima.
+- Se la query di ricerca non è più di 300.000 elementi, verrà visualizzata anche l'opzione **Recupera dati**. In questo modo è possibile scegliere di non modificare la ricerca e di continuare a raccogliere i dati.
+
+#### <a name="retrieve-data"></a>Recuperare i dati
+La fase di recupero dei dati si verifica quando tutti i file, i messaggi di posta elettronica, le chat, le immagini e altri elementi di contenuto contenenti i dati personali dell'oggetto dati vengono recuperati e messi insieme in un contenitore di archiviazione BLOB di Azure per la revisione. Il recupero dei dati può richiedere alcuni minuti o molto più a seconda del volume di dati. Al termine di questa fase, la richiesta passa automaticamente alla fase successiva della **verifica dei dati**.
+
+#### <a name="review-data"></a>Esaminare i dati
+ In questa fase, i collaboratori devono esaminare i risultati nella scheda Dati  raccolti ed eseguire tutte le attività applicabili come la redazione, l'applicazione di tag e l'aggiunta di note. Al termine della revisione, selezionare **Completa revisione**.
+
+#### <a name="generate-reports"></a>Generare report
+I report vengono generati in questa fase. Al termine, questi elementi sono disponibili nella **scheda** Report. I file finiti possono essere esportati per la revisione finale e la consegna all'utente che ha effettuato la richiesta.
+
+#### <a name="close-the-request"></a>Chiudere la richiesta
+Una richiesta chiusa indica che tutto il lavoro è stato completato per soddisfare questa richiesta di diritti dell'oggetto. Tutti i dati raccolti e i report verranno conservati in base alle impostazioni [di conservazione dei dati.](priva-settings.md#data-retention-periods)
 
 ## <a name="step-2-optional-view-and-edit-search-queries"></a>Passaggio 2 (facoltativo): visualizzare e modificare le query di ricerca
 
@@ -59,7 +78,7 @@ Per visualizzare informazioni dettagliate sulla ricerca di dati alla base di una
 
 È possibile visualizzare in **anteprima i risultati** della ricerca per vedere il tipo di contenuto che verrà restituito per la query. Se si desidera modificare le proprietà di questa ricerca e non è stata avviata la fase Recupera dati, è possibile utilizzare **l'opzione Modifica query di** ricerca.
 
-La procedura guidata modifica query di ricerca consente di modificare o aggiungere proprietà per l'identificazione dell'oggetto dati, i filtri e le condizioni di ricerca e le posizioni in cui cercare i dati (inclusi Exchange, SharePoint, OneDrive e/o Teams). Usa queste opzioni per raggiungere il livello di specificità desiderato. È possibile esaminare la versione finale della nuova query prima di premere **Salva**.
+Il processo guidato per la query di ricerca di modifica consente di modificare o aggiungere proprietà per l'identificazione dell'oggetto dati, i filtri e le condizioni di ricerca e le posizioni in cui cercare i dati (inclusi Exchange, SharePoint, OneDrive e/o Teams). Usa queste opzioni per raggiungere il livello di specificità desiderato. È possibile esaminare la versione finale della nuova query prima di premere **Salva**.
 
 Al termine della modifica della query di ricerca, verrà eseguita una nuova ricerca per sostituire i risultati della ricerca precedenti. In questo modo lo stato nella sezione **Stato** viene reimpostato sul primo passaggio, **Stima dati**. Il completamento della nuova ricerca può richiedere fino a 60 minuti. Al termine, vedrai i risultati aggiornati nella pagina dei dettagli della richiesta.
 
@@ -76,7 +95,7 @@ In questa fase, i collaboratori devono esaminare i risultati nella **scheda Dati
 
 ### <a name="collaborate-on-data-review"></a>Collaborare alla revisione dei dati
 
-Priva supporta la collaborazione tramite Microsoft Teams per consentire al gruppo di collaborare sulle richieste di diritti dell'oggetto. Quando crei una nuova richiesta, per impostazione Teams viene creato automaticamente un canale di Teams associato alla richiesta. Qui puoi discutere la richiesta e condividere in modo sicuro input e contributi. Per partecipare alla conversazione, apri la richiesta e usa **l'opzione Chat con i** collaboratori. Verrà aperta la Microsoft Teams e verrà posizionata nel canale Generale per il sito del team della richiesta di diritti dell'oggetto.
+Priva supporta la collaborazione tramite Microsoft Teams per consentire al gruppo di collaborare alle richieste di diritti dell'oggetto. Quando crei una nuova richiesta, per impostazione Teams viene creato automaticamente e associato alla richiesta. Qui puoi discutere la richiesta e condividere in modo sicuro input e contributi. Per partecipare alla conversazione, apri la richiesta e usa **l'opzione Chat con i** collaboratori. Verrà aperta la Microsoft Teams e verrà posizionata all'interno del canale Generale per il sito del team della richiesta di diritti dell'oggetto.
 
 Per esaminare l'elenco dei collaboratori attivi che possono visualizzare e contribuire al sito del team, all'interno della richiesta di diritti dell'oggetto aprire la **scheda** Collaboratori. Per aggiungere altri utenti per collaborare a questa richiesta, selezionare l'opzione **Aggiungi un collaboratore**.
 
@@ -86,7 +105,7 @@ Puoi anche usare l'opzione Condividi in alto a destra all'interno di una richies
 
 ## <a name="step-4-close-the-request"></a>Passaggio 4: Chiudere la richiesta
 
-Dopo aver eseguito tutte le azioni necessarie per risolvere la richiesta di diritti dell'oggetto, selezionare **Chiudi la richiesta**. Verrà creato il report finale, che verrà crittografato e reso disponibile nella **scheda Report**. Il completamento potrebbe richiedere del tempo a seconda del numero di file nella richiesta.
+Dopo aver eseguito tutte le azioni necessarie per risolvere la richiesta di diritti dell'oggetto, selezionare **Chiudi la richiesta**. Verrà creato il report finale, disponibile nella **scheda Report**. Il completamento potrebbe richiedere del tempo a seconda del numero di file nella richiesta.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per ulteriori informazioni sull'utilizzo dei report e sul completamento delle richieste di diritti dell'oggetto, vedere [Generare report ed eseguire una richiesta di diritti dell'oggetto](subject-rights-requests-reports.md).
