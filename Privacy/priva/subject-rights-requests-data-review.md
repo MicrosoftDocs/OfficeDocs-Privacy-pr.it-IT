@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come esaminare i dati delle richieste di diritti dell'oggetto raccolti da Microsoft Priva e collaborare al completamento della richiesta.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542844"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768430"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Esaminare i dati per una richiesta di diritti dell'oggetto
 
-Dopo aver creato una richiesta per i diritti dell'oggetto [(ulteriori](subject-rights-requests-create.md) informazioni) in Microsoft Priva, la soluzione Subject Rights Requests utilizzerà gli input per cercare corrispondenze sull'oggetto dati nell'ambiente di Microsoft 365 dell'organizzazione. Dopo aver compilato questi dati, è possibile esaminare i risultati, effettuare scelte sugli elementi da includere e redigere le informazioni in base alle esigenze. Questi passaggi possono essere collaborati da più utenti tramite l'interfaccia Priva.
+Dopo aver creato una richiesta di diritti dell'oggetto [(ulteriori](subject-rights-requests-create.md) informazioni) in Microsoft Priva, la soluzione Subject Rights Requests utilizzerà gli input per cercare corrispondenze sull'oggetto dati nell'ambiente di Microsoft 365 dell'organizzazione. Dopo aver compilato questi dati, è possibile esaminare i risultati, effettuare scelte sugli elementi da includere e redigere le informazioni in base alle esigenze. Questi passaggi possono essere collaborati da più utenti tramite l'interfaccia Priva.
 
 ## <a name="step-1-review-request-details-and-monitor-progress"></a>Passaggio 1: esaminare i dettagli della richiesta e monitorare lo stato
 
@@ -47,9 +47,9 @@ Le richieste di diritti dell'oggetto vengono sottoposte a più fasi. Alcuni avan
 Poiché potrebbe essere necessario lavorare sulle richieste nel tempo o da più collaboratori, Priva fornisce aggiornamenti continui sullo stato e indicazioni sui passaggi successivi da eseguire. Questi aggiornamenti possono essere visualizzati nella pagina panoramica della richiesta di diritti dell'oggetto.
 
 #### <a name="data-estimate"></a>Stima dei dati
-Dopo aver creato una richiesta, Priva inizia immediatamente a cercare potenziali corrispondenze all'oggetto dei dati nell'Microsoft 365 ambiente. Dopo aver identificato tutti gli elementi che pensiamo corrispondano ai criteri, vedrai la stima nella scheda riepilogo Stima dati  nella pagina **Panoramica della** richiesta. La quantità di dati nell'ambito della ricerca influirà sul tempo necessario per completare la stima.
+Dopo aver creato una richiesta, Priva inizia immediatamente a cercare potenziali corrispondenze all'oggetto dei dati nell'ambiente Microsoft 365 locale. Dopo aver identificato tutti gli elementi che pensiamo corrispondano ai criteri, vedrai la stima nella scheda riepilogo Stima dati  nella pagina **Panoramica della** richiesta. La quantità di dati nell'ambito della ricerca influirà sul tempo necessario per completare la stima.
 
-La richiesta verrà spostata automaticamente alla fase successiva di recupero dei dati, in cui tutti gli elementi di contenuto vengono raccolti insieme in modo che la parte interessata possa collaborare alla revisione dei dati. Tuttavia, in alcuni casi la stima dei dati verrà sospesa prima di passare al recupero e verranno notificati i passaggi successivi da eseguire prima di continuare.
+La richiesta verrà spostata automaticamente alla fase successiva del recupero dei dati, in cui tutti gli elementi di contenuto vengono raccolti insieme in modo che le parti interessate possano collaborare alla revisione dei dati. In alcuni casi la stima dei dati verrà sospesa prima di passare al recupero e verranno notificati i passaggi successivi da eseguire prima di continuare.
 
 Puoi anche scegliere di sospendere automaticamente nella fase di stima dei dati quando crei per la prima volta una richiesta di diritti dell'oggetto. Durante il processo di creazione, selezionare **l'opzione Ottieni prima** una stima durante il **passaggio Impostazioni di** ricerca. Esaminare i dettagli sul passaggio [delle impostazioni di ricerca](subject-rights-requests-create.md#define-search-settings).
 
@@ -95,13 +95,13 @@ In questa fase, i collaboratori devono esaminare i risultati nella **scheda Dati
 
 ### <a name="collaborate-on-data-review"></a>Collaborare alla revisione dei dati
 
-Priva supporta la collaborazione tramite Microsoft Teams per consentire al gruppo di collaborare alle richieste di diritti dell'oggetto. Quando crei una nuova richiesta, per impostazione Teams viene creato automaticamente e associato alla richiesta. Qui puoi discutere la richiesta e condividere in modo sicuro input e contributi. Per partecipare alla conversazione, apri la richiesta e usa **l'opzione Chat con i** collaboratori. Verrà aperta la Microsoft Teams e verrà posizionata all'interno del canale Generale per il sito del team della richiesta di diritti dell'oggetto.
+Priva supporta la collaborazione tramite Microsoft Teams per consentire al gruppo di collaborare alle richieste di diritti dell'oggetto. Quando crei una nuova richiesta, per impostazione Teams viene creato automaticamente un canale di Teams associato alla richiesta. Qui puoi discutere la richiesta e condividere in modo sicuro input e contributi. Per partecipare alla conversazione, apri la richiesta e usa **l'opzione Chat con i** collaboratori. Verrà aperta la Microsoft Teams e verrà posizionata all'interno del canale Generale per il sito del team della richiesta di diritti dell'oggetto.
 
 Per esaminare l'elenco dei collaboratori attivi che possono visualizzare e contribuire al sito del team, all'interno della richiesta di diritti dell'oggetto aprire la **scheda** Collaboratori. Per aggiungere altri utenti per collaborare a questa richiesta, selezionare l'opzione **Aggiungi un collaboratore**.
 
 Per modificare il comportamento predefinito della generazione di siti Teams durante la creazione di una richiesta di diritti dell'oggetto, passare a **Impostazioni** nella barra di spostamento superiore e selezionare Teams **collaborazione** per modificare l'impostazione.
 
-Puoi anche usare l'opzione Condividi in alto a destra all'interno di una richiesta a destra dell'oggetto per eseguire un ciclo di utenti tramite Teams o posta elettronica o per copiare il collegamento alla pagina in Priva. La condivisione tramite Teams consente di selezionare un sito e un canale di Teams esistenti disponibili per il tuo account, dove invierà un collegamento a questo caso insieme a qualsiasi messaggio fornito.
+Puoi anche usare l'opzione Condividi in alto a destra all'interno di una richiesta a destra dell'oggetto per eseguire un ciclo di utenti tramite Teams o posta elettronica o per copiare il collegamento alla pagina in Priva. La condivisione tramite Teams consente di selezionare un sito e un canale di Teams esistenti disponibili per il tuo account, in cui verrà pubblicato un collegamento a questo caso insieme a qualsiasi messaggio fornito.
 
 ## <a name="step-4-close-the-request"></a>Passaggio 4: Chiudere la richiesta
 

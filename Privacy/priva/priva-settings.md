@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulle opzioni delle impostazioni globali per Microsoft Priva.
-ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: a621102db2a421cbda0c8d7298c30cede102f13e
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542824"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768440"
 ---
 # <a name="configure-priva-settings"></a>Configurare le impostazioni di Priva
 
@@ -38,7 +38,7 @@ I criteri in Gestione dei rischi per la privacy consentono di impostare i parame
 
 ## <a name="teams-collaboration"></a>Collaborazione in Teams  
 
-Integrare Microsoft Teams funzionalità con Priva Subject Rights Requests per migliorare la collaborazione con gli stakeholder. Ogni volta che viene creata una richiesta di diritti dell'oggetto, verrà creato un team associato Teams. Gli utenti possono essere aggiunti a un team dalla scheda Collaboratori della richiesta. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Informazioni su Priva Subject Rights Requests](subject-rights-requests.md).
+Integrare Microsoft Teams funzionalità con Priva Subject Rights Requests per migliorare la collaborazione con gli stakeholder. Ogni volta che viene creata una richiesta di diritti dell'oggetto, verrà creato un team associato in Teams. Gli utenti possono essere aggiunti a un team dalla scheda Collaboratori della richiesta. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Informazioni su Priva Subject Rights Requests](subject-rights-requests.md).
 
 ## <a name="data-matching"></a>Corrispondenza dati  
 
