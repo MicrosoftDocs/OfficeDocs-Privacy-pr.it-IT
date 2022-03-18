@@ -16,16 +16,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come gestire i pacchetti di dati creati da Microsoft Priva per le richieste di diritti dell'oggetto ed eseguire la richiesta all'oggetto dei dati.
-ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 8a6a41188de78508401b0dfffb3d7cdefb2320a5
+ms.sourcegitcommit: 4965df24fdc907f7a6e397f2c78019aaf72c7580
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542834"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63564446"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Generare report ed soddisfare una richiesta di diritti dell'oggetto
 
-Dopo aver completato la revisione dei dati per una richiesta di diritti dell'oggetto in Microsoft Priva, puoi passare alla richiesta di evasione. Priva creerà report e raccoglierà i file contrassegnati per **Include** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati al soggetto dei dati per completare la richiesta. Priva supporta anche l'api per le richieste di diritti Microsoft 365 soggetto per introdurre funzionalità di automazione.
+Dopo aver completato la revisione dei dati per una richiesta di diritti dell'oggetto in Microsoft Priva, puoi passare alla richiesta di evasione. Priva creerà report e raccoglierà i file contrassegnati per **Include** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati al soggetto dei dati per completare la richiesta. Priva supporta inoltre l'api per le richieste di diritti Microsoft 365 soggetto per introdurre funzionalità di automazione.
+
+## <a name="understanding-reports"></a>Informazioni sui report
+
+Dopo aver selezionato **Completa revisione** nella fase **Di** revisione dei dati della richiesta di diritti dell'oggetto, i report finali per la richiesta inizieranno a generare automaticamente. Nella scheda **Report** della pagina dei dettagli delle richieste di diritti oggetto, la colonna **Stato** indica quando la generazione del report è **in** corso e quando un report **è Pronto per il download**. La creazione dei report può richiedere fino a 30 minuti.
+
+I report sono suddivisi in due sezioni:
+1. **Report per l'oggetto dei** dati: questi report contengono informazioni che possono essere restituite all'oggetto dei dati come parte dell'evasione delle richieste. È qui che troverai il pacchetto **di dati** contenente i file da inviare all'oggetto dei dati.
+   > [!IMPORTANT]
+   > Un pacchetto di dati verrà generato solo se contrassegni gli elementi **come Includi durante** la revisione dei dati.
+
+   > [!IMPORTANT]
+   > Verrà generato un pacchetto di dati solo per i **tipi di** **richieste** di esportazione e accesso. Non verrà generato un pacchetto di dati per un elenco **con tag per la richiesta di follow-up** . Esaminare i dettagli sui [tipi di richieste di diritti oggetto](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+
+2. **Report per uso interno**: questi report sono relativi ai record interni dell'organizzazione correlati alla richiesta di diritti dell'oggetto. Includono un log di controllo e un elenco di tutti i file a cui sono stati applicati i tag durante la revisione dei dati per eseguire ulteriori operazioni.
 
 ## <a name="prepare-final-reports-for-the-data-subject"></a>Preparare i report finali per l'oggetto dei dati
 
@@ -48,9 +62,9 @@ Dopo aver esaminato il contenuto del file ZIP, modificarlo in base alle esigenze
 
 ## <a name="integrate-with-partner-solutions"></a>Integrazione con soluzioni partner
 
-Puoi integrare la soluzione Priva Subject Rights Requests con i processi e gli strumenti aziendali esistenti sfruttando l'API per le richieste di diritti Microsoft 365 soggetto. Questo offre un modo semplice ma potente per introdurre l'automazione nella strategia per i diritti dell'oggetto.
+Puoi integrare la soluzione Priva Subject Rights Requests con i processi e gli strumenti aziendali esistenti usando l'API Microsoft 365 subject rights request. L'uso dell'API offre un modo semplice ma potente per introdurre l'automazione nella strategia per i diritti dell'oggetto.
 
-Quando gli interessati richiedono informazioni all'organizzazione, puoi sfruttare le API per creare tali richieste all'interno di Microsoft 365 in base ai criteri personalizzati per tale richiesta. Puoi creare la richiesta di diritti dell'oggetto in Microsoft 365, tenere traccia dell'avanzamento della richiesta attraverso le sue fasi e confermare quando la richiesta ha completato l'elaborazione e il contenuto è pronto per il recupero. Le NOSTRE API sono disponibili per tutti gli utenti per rendere le proprie soluzioni più estensibile: che si tratta di ISV, partner che possono ospitare Microsoft 365 nelle proprie soluzioni o per le organizzazioni da usare con le applicazioni line-of-business.
+Quando gli interessati richiedono informazioni all'organizzazione, le API possono contribuire a creare tali richieste entro Microsoft 365 in base ai criteri univoci della richiesta. Puoi creare la richiesta di diritti dell'oggetto in Microsoft 365, tenere traccia dell'avanzamento della richiesta attraverso le sue fasi e confermare quando la richiesta ha completato l'elaborazione e il contenuto è pronto per il recupero. Le NOSTRE API sono disponibili per tutti gli utenti per rendere le soluzioni più estensibile: che si tratta di ISV, partner che possono ospitare Microsoft 365 nelle proprie soluzioni o per le organizzazioni da usare con le applicazioni line-of-business.
 
 Per altre informazioni, vedi [Usare l'API per la richiesta di diritti Graph microsoft](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview).
 
@@ -58,7 +72,7 @@ Per altre informazioni, vedi [Usare l'API per la richiesta di diritti Graph micr
 
 I report generati tramite questo strumento e i dati associati, ad esempio i file con annotazioni salvati in Azure, vengono archiviati per un periodo di tempo specificato. Il periodo di conservazione dei dati è definito in Priva **Impostazioni** e si applica a tutte le richieste di diritti dell'oggetto. Per visualizzare o modificare i periodi di conservazione dei dati, eseguire la procedura seguente:
 
-1. Da qualsiasi punto in Priva Subject Rights Requests, **seleziona Impostazioni** (l'icona a forma di ingranaggio) nell'angolo in alto a destra dello schermo.
+1. Da qualsiasi punto in Priva Subject Rights Requests seleziona **Impostazioni** (l'icona a forma di ingranaggio) nell'angolo in alto a destra dello schermo.
 2. Selezionare **Periodi di conservazione dei dati** nella barra di spostamento sinistra.
 3. Usando il menu a discesa, selezionare 30 o 90 giorni come periodo di conservazione.
 
