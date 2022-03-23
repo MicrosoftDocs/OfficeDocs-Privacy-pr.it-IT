@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La soluzione Richieste di diritti dell'oggetto in Microsoft Priva consente di trovare dati personali e collaborare alla revisione del contenuto e alla creazione di report.
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249247"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758445"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Informazioni su Priva Subject Rights Requests
 
@@ -31,9 +31,7 @@ Microsoft Priva può aiutarti a gestire queste richieste tramite la soluzione Su
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Come Priva supporta l'evasione delle richieste di diritti dell'oggetto
 
-Il ciclo di richiesta dei diritti dell'oggetto inizia con la richiesta di un singolo utente all'organizzazione. Una volta ricevuti, è possibile utilizzare le funzionalità di Priva per raccogliere i dati, collaborare, esaminare e creare report. È quindi possibile informare l'utente dei risultati e intraprendere qualsiasi altra azione necessaria al di fuori di Priva per soddisfare la richiesta, ad esempio l'eliminazione dei dati. Per gestire e automatizzare i flussi di lavoro lungo il percorso, è anche possibile utilizzare i modelli Power Automate di Priva.
-
-![Flusso di lavoro per le richieste di diritti dell'oggetto.](../media/priva-srr-cycle.png)
+Il ciclo di richiesta dei diritti dell'oggetto inizia con la richiesta di un singolo utente all'organizzazione. Una volta ricevuti, è possibile utilizzare le funzionalità di Priva per raccogliere i dati, collaborare, esaminare e creare report. È quindi possibile informare l'utente dei risultati e intraprendere qualsiasi altra azione necessaria al di fuori di Priva per soddisfare la richiesta, ad esempio l'eliminazione dei dati. Per facilitare la gestione e l'automazione dei flussi di lavoro, è inoltre possibile utilizzare modelli Power Automate integrati.
 
 ### <a name="create-requests-and-collect-data"></a>Creare richieste e raccogliere dati
 
