@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come esaminare i dati delle richieste di diritti dell'oggetto raccolti da Microsoft Priva e collaborare al completamento della richiesta.
-ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 7e9222a67d2f7b7e81141d1ec9a65688800f436e
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746766"
+ms.locfileid: "63758435"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Esaminare i dati per una richiesta di diritti dell'oggetto
 
@@ -88,14 +88,14 @@ In questa fase, i collaboratori devono esaminare i risultati nella **scheda Dati
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Contrassegnare gli elementi come Includi o Escludi e aggiungi note
 
-Esaminare l'elenco degli elementi identificati per determinare se i dati personali dell'oggetto dei dati si trova in ogni elemento. Se l'elemento contiene le informazioni dell'oggetto dati e appartiene come parte del report finale all'oggetto dati, contrassegnare l'elemento come **Includi** selezionando Includi  sulla barra dei comandi nella parte superiore dell'elenco di elementi. Puoi anche selezionare il pulsante blu **Includi** nell'area di revisione del contenuto a destra dell'elenco di elementi. Quando si seleziona **Includi**, viene visualizzato un riquadro a comparsa con un'opzione per aggiungere note. Al termine, **selezionare Invia per** salvare lo stato di revisione dell'elemento come **Includi**.
+Esaminare l'elenco degli elementi identificati restituiti dalla ricerca. Se si decide che l'elemento deve essere incluso come parte del report finale all'oggetto dati, selezionare  Includi sulla barra dei comandi nella parte superiore dell'elenco di elementi. Puoi anche selezionare il pulsante blu **Includi** nell'area di revisione del contenuto a destra dell'elenco di elementi. Quando si seleziona **Includi**, viene visualizzato un riquadro a comparsa con un'opzione per aggiungere note. Al termine, **selezionare Invia per** salvare lo stato di revisione dell'elemento come **Includi**.
 
-Se non è necessario includere un elemento come parte della richiesta, selezionare Escludi  sulla barra dei comandi o il pulsante  Escludi nell'area di revisione del contenuto. L'esclusione di un elemento significa che non è rilevante per la richiesta di diritti dell'oggetto e l'elemento non verrà incluso nei rapporti finali generati per [l'oggetto dei dati](subject-rights-requests-reports.md).
+Se l'elemento non appartiene come parte della richiesta  **, selezionare** Escludi sulla barra dei comandi o il pulsante Escludi nell'area di revisione del contenuto. L'esclusione di un elemento significa che non verrà incluso nei [report finali generati per l'oggetto dei dati](subject-rights-requests-reports.md).
 
 > [!NOTE]
-> Se si contrassegna **un elemento Exclude**, è necessario aggiungere una nota come giustificazione del motivo per cui non riguarda la richiesta di diritti dell'oggetto. Le note sono per scopi interni e non sono incluse nei report finali.
+> Se si contrassegna un elemento come Escludi, è necessario aggiungere una nota come giustificazione del motivo per cui non riguarda la richiesta di diritti dell'oggetto. Le note sono per scopi interni e non sono incluse nei report finali.
 
-Se il contenuto sembra essere un falso positivo, selezionare Non  corrisponde per escludere il file dai rapporti finali e contrassegnare l'elemento come elemento che non dovrebbe essere stato rilevato nella ricerca. Nel riquadro **a comparsa Contrassegna** come non corrispondente selezionare Conferma per  far sapere che l'elemento non corrisponde ai criteri di ricerca.
+Se il contenuto sembra essere un falso positivo, selezionare **Non corrisponde e** nel riquadro a comparsa selezionare **Conferma**. Questa azione escluderà il file dai rapporti finali e contrassegnerà l'elemento come elemento che non dovrebbe essere stato rilevato nella ricerca.
 
 #### <a name="apply-tags"></a>Applicazione di tag
 
@@ -103,14 +103,14 @@ I tag possono essere usati per identificare gli elementi che necessitano di ulte
 
 Ad esempio, se si determina durante la revisione dei dati che un elemento di contenuto non deve essere conservato dall'organizzazione, è possibile applicare il tag **Delete** , quindi esportare un elenco di tutti i file con tag in modo da poter tornare indietro ed eliminare gli elementi identificati al termine della richiesta.
 
-I cinque tag impostati e [gestiti in Impostazioni](priva-settings.md#data-review-tags) si applicano a tutte le richieste di diritti dell'oggetto.
+I cinque tag gestiti in **Impostazioni si applicano** a tutte le richieste di diritti dell'oggetto.
 
 **Per aggiungere o rimuovere tag:**
 
 - Selezionare l'elemento dall'elenco nella **scheda Dati raccolti** della richiesta.
 - Nell'area di anteprima dell'elemento a destra dell'elenco seleziona il **pulsante Applica** tag nella riga inferiore. Puoi anche selezionare i tre punti a destra del nome dell'elemento e selezionare **l'opzione Applica** tag.
 - Verrà visualizzato un riquadro a comparsa con l'elenco di tag. Seleziona la casella accanto ai tag che vuoi applicare all'elemento. Se si deseleziona una casella selezionata, il tag verrà rimosso.
-- Quando si è soddisfatti delle selezioni, selezionare **Salva**, che salva le selezioni di tag e chiude il riquadro a comparsa.
+- Al termine, seleziona **Salva**, che salva le selezioni di tag e chiude il riquadro a comparsa.
 
 **Per aggiungere tag personalizzati o aggiornare le descrizioni dei tag:**
 - Nella pagina Richieste di diritti dell'oggetto seleziona **Impostazioni** nell'angolo in alto a destra dello schermo per accedere alle impostazioni priva.
@@ -119,12 +119,10 @@ I cinque tag impostati e [gestiti in Impostazioni](priva-settings.md#data-review
 **Per esportare un elenco di elementi contrassegnati:**
 - Vai alla pagina **Dati raccolti** in una richiesta di diritti dell'oggetto.
 - Sopra l'elenco di elementi, selezionare l'icona freccia giù che indica **Esporta** quando si passa su di esso.
-- Verrà scaricato Excel file. Apri il file al termine del download.
-
-Il file Excel scaricato mostra le proprietà di tutti gli elementi raccolti dalla ricerca per la richiesta. Trova la **colonna** Tag per identificare e ordinare gli elementi in base al tag.
+- Verrà Excel un file che mostra le proprietà di tutti gli elementi raccolti dalla ricerca per la richiesta. Trova la **colonna** Tag per identificare e ordinare gli elementi in base al tag.
 
 #### <a name="use-the-annotate-command-to-redact-text"></a>Utilizzare il comando Annotate per redigere il testo
-Usa **Annota** per creare contrassegni in linea o modificare i dati in un file selezionato. Ad esempio, se è necessario includere un file per una persona che contiene anche le informazioni personali di altri utenti, è possibile utilizzare la **redazione** Area (sotto il pulsante Disegno nella barra dei comandi) per black out tutte le informazioni che non riguardano la persona che ha effettuato la richiesta. Al termine delle modifiche, selezionare **Includi** per aggiungere il file redatto alla richiesta. L'annotazione crea una copia del file, in modo che nulla nel file originale sia modificato e rimanga nella posizione originale. La copia viene archiviata nel BLOB di Azure.
+Il **comando Annota** nell'area di revisione del contenuto consente di creare contrassegni in linea e redigere i dati all'interno di un elemento di contenuto. Ad esempio, se è necessario includere un file per una persona che contiene anche le informazioni personali di un altro soggetto di dati, è possibile utilizzare la redazione **Area** sotto il pulsante Disegno nella barra dei comandi per black out tutte le informazioni che non riguardano la persona che ha effettuato la richiesta. Al termine delle modifiche, selezionare **Includi** per aggiungere il file redatto alla richiesta. L'annotazione crea una copia del file, che viene archiviata nel BLOB di Azure. Il file originale rimane inalterato e archiviato nel percorso originale.
 
 #### <a name="enter-notes-about-a-file"></a>Immettere note su un file
 Per aggiungere o rivedere note su un elemento, selezionare l'elemento dalla relativa riga e passare alla scheda **Note** file nell'area di revisione del contenuto a destra. Puoi anche usare **l'opzione Aggiungi nota file** per creare un nuovo commento. Per rivedere o aggiungere note a livello di caso generale, passare alla scheda **Note** principale sopra e usare **Aggiungi nota caso**. Queste note saranno visibili per gli utenti che lavorano alla richiesta, ma non verranno incluse nel report finale o condivise in altro modo con l'oggetto dei dati.

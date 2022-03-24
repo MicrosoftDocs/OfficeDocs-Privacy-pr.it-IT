@@ -1,5 +1,5 @@
 ---
-title: 'Playbook di prova: Microsoft Priva'
+title: 'Playbook di valutazione: Microsoft Priva'
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulla versione di valutazione di Microsoft Priva, vedere azioni consigliate da intraprendere durante il periodo di valutazione ed esaminare i collegamenti alla documentazione importante.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248975"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765509"
 ---
-# <a name="trial-playbook-microsoft-priva"></a>Playbook di prova: Microsoft Priva
+# <a name="trial-playbook-microsoft-priva"></a>Playbook di valutazione: Microsoft Priva
 
 Benvenuti nel playbook di valutazione Di Microsoft Priva.
 
@@ -47,7 +47,7 @@ Con la **soluzione di gestione dei** rischi per la privacy, è possibile esplora
 - Consentire agli information worker di prendere decisioni intelligenti sulla gestione di questi dati
 - Consentire agli utenti di gestire in modo efficace i dati e adottare misure per conformarsi alle normative sulla privacy in evoluzione
 
-### <a name="subject-rights-requests"></a>Richieste di diritti dell'oggetto
+### <a name="subject-rights-requests"></a>Richieste dei diritti dell’interessato
 
 Con la **soluzione Richieste diritti oggetto** , è possibile imparare a gestire le richieste di informazioni dalla richiesta iniziale alla produzione di report.
 
@@ -71,7 +71,7 @@ Priva consente di comprendere i dati archiviati dall'organizzazione automatizzan
 
 Per iniziare, passare alla sezione Priva del [Centro conformità Microsoft 365](https://compliance.microsoft.com/) e visualizzare queste pagine:
 
-1. [Panoramica](priva-data-profile.md#explore-the-overview-page): fornisce una visualizzazione aggregata della posizione della privacy, inclusi il volume, la categoria, la posizione e lo spostamento dei dati personali nell'ambiente Microsoft 365 aziendale. Inoltre, si ottiene visibilità sullo stato corrente e sulle tendenze dei rischi per la privacy associati derivanti dalla sovracondivisa, dal trasferimento o dall'inutilizzato dei dati personali.
+1. [Panoramica](priva-data-profile.md#explore-the-overview-page): offre una visualizzazione aggregata della posizione della privacy, inclusi il volume, la categoria, la posizione e lo spostamento dei dati personali nell'ambiente Microsoft 365 aziendale. Inoltre, si ottiene visibilità sullo stato corrente e sulle tendenze dei rischi per la privacy associati derivanti dalla sovracondivisa, dal trasferimento o dall'inutilizzato dei dati personali.
 1. [Profilo dati](priva-data-profile.md#explore-the-data-profile-page): fornisce uno snapshot dei dati personali archiviati nell'organizzazione in Microsoft 365, inclusi volume, tipo e posizione (archiviazione e area geografica).
 
 ## <a name="learn-about-policies"></a>Informazioni sui criteri
@@ -122,7 +122,7 @@ La gestione dei rischi per la privacy può informare direttamente i proprietari 
 1. [Risolvere i problemi dalle notifiche di posta elettronica](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [Inviare notifiche in Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>Informazioni sulle richieste di diritti dell'oggetto
+## <a name="learn-about-subject-rights-requests"></a>Informazioni sulle richieste dei diritti dell’interessato
 
 In conformità a determinate normative sulla privacy in tutto il mondo, gli individui (o gli interessati) possono richiedere di rivedere o gestire i dati personali che le aziende hanno raccolto. Queste richieste vengono talvolta definite anche richieste dell'oggetto dei dati (DSR), richieste DSR (Data Subject Access Requests) o richieste di diritti degli utenti. Priva Subject Rights Requests può aiutarti a gestire queste richieste.
 
@@ -163,9 +163,9 @@ Dopo aver creato una richiesta di diritti dell'oggetto, Priva utilizzerà gli in
 
 Dopo aver completato la revisione dei dati per una richiesta di diritti dell'oggetto, puoi passare alla richiesta di evasione.
 
-1. [Preparare i report finali per l'oggetto dei dati](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [Preparare i report finali per l'oggetto dei dati](subject-rights-requests-reports.md)
 1. [Integrazione con soluzioni partner](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [Gestire la conservazione dei dati](subject-rights-requests-reports.md#manage-data-retention)
+1. [Gestire la conservazione dei dati](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatizzare le attività relative alle richieste di diritti degli interessati
 

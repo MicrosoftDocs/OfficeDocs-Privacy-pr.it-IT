@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulle opzioni delle impostazioni globali per Microsoft Priva.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746776"
+ms.locfileid: "63758425"
 ---
 # <a name="configure-priva-settings"></a>Configurare le impostazioni di Priva
 
@@ -64,7 +64,3 @@ Seguire la procedura seguente per modificare i nomi e le descrizioni dei tag:
 Le impostazioni dei tag si applicano a tutte le richieste di diritti dell'oggetto.
 
 Ulteriori informazioni [sull'applicazione di tag durante la revisione dei dati per una richiesta di diritti dell'oggetto](subject-rights-requests-data-review.md#apply-tags).
-
-In **Impostazioni**, visita **Tag di revisione dei dati** per esaminare e gestire i tag.
- 
-Questi tag possono essere usati per indicare il contenuto che avrà bisogno di ulteriore attenzione, ad esempio il contenuto che potrebbe essere necessario eliminare manualmente. In questa sezione delle impostazioni è possibile modificare i nomi e le descrizioni dei tag personalizzati. Puoi anche modificare le descrizioni dei tag per i tag predefiniti forniti dal sistema. I nomi dei tag di sistema non possono essere modificati. Per altre informazioni sulle richieste di diritti dell'oggetto, vedi [Esaminare i dati per una richiesta di diritti dell'oggetto](subject-rights-requests-data-review.md#step-3-review-data).
