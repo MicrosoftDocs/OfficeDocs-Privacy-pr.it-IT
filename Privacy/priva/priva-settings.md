@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulle opzioni delle impostazioni globali per Microsoft Priva.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758425"
+ms.locfileid: "63765489"
 ---
 # <a name="configure-priva-settings"></a>Configurare le impostazioni di Priva
 
@@ -46,7 +46,7 @@ Utilizzare questa sezione per caricare schemi di dati che descrivono gli attribu
 
 ## <a name="data-retention-periods"></a>Periodi di conservazione dei dati
 
-Questa impostazione è correlata a Priva Subject Rights Requests. Consente di controllare la preferenza per quanto tempo si desidera conservare i dati raccolti e i report generati dopo la chiusura della richiesta. Può essere impostato su 30 o 90 giorni e si applica a tutte le richieste di diritti dell'oggetto create. È consigliabile verificare che i periodi di conservazione dei dati siano conformi ai criteri e agli obblighi legali dell'organizzazione. Ulteriori informazioni [sull'impostazione della conservazione dei dati per le richieste di diritti dell'oggetto](subject-rights-requests-reports.md#manage-data-retention).
+Questa impostazione è correlata a Priva Subject Rights Requests. Consente di controllare la preferenza per quanto tempo si desidera conservare i dati raccolti e i report generati dopo la chiusura della richiesta. Può essere impostato su 30 o 90 giorni e si applica a tutte le richieste di diritti dell'oggetto create. È consigliabile verificare che i periodi di conservazione dei dati siano conformi ai criteri e agli obblighi legali dell'organizzazione. Ulteriori informazioni sulla conservazione [dei dati per le richieste di diritti dell'oggetto](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Tag di revisione dei dati
 
