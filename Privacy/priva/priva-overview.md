@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva aiuta le organizzazioni a valutare i dati personali archiviati in Microsoft 365, li aiuta a identificare e correggere i rischi per la privacy e li aiuta a gestire le richieste di diritti dell'oggetto su larga scala.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248976"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586459"
 ---
 # <a name="learn-about-microsoft-priva"></a>Informazioni su Microsoft Priva
 
@@ -79,7 +79,7 @@ Per ulteriori informazioni, vedere [Creare criteri in Gestione dei rischi per la
 
 Alcune normative sulla privacy in tutto il mondo consentono agli utenti, definiti anche soggetti di dati *,* di effettuare richieste di revisione o gestione dei dati personali raccolti dalle aziende. Per le società che archiviano grandi quantità di informazioni non strutturate, trovare i dati rilevanti può essere un'attività formidabile.
 
-Priva Subject Rights Requests offre la possibilità di automatizzare l'evasione dei diritti dell'oggetto dei dati con un facile accesso ai dati pertinenti e ai flussi di lavoro personalizzabili che rientrano nei processi aziendali esistenti. Quando si ricercano i dati relativi a un individuo, la soluzione di richiesta dei diritti dell'oggetto raccoglie automaticamente i dati da tutto l'ambiente Microsoft 365 e consente di esaminare i risultati e di produrre report. È possibile collaborare in modo sicuro con più persone dell'organizzazione per completare le richieste. È inoltre possibile personalizzare i flussi di lavoro in base ai processi aziendali con modelli predefiniti.
+Priva Subject Rights Requests offre la possibilità di automatizzare l'evasione dei diritti dell'oggetto dei dati con un facile accesso ai dati pertinenti e ai flussi di lavoro personalizzabili che rientrano nei processi aziendali esistenti. Quando si ricercano dati relativi a un individuo, la soluzione di richiesta dei diritti dell'oggetto raccoglie automaticamente i dati da tutto l'ambiente Microsoft 365 e consente di esaminare i risultati e di produrre report. È possibile collaborare in modo sicuro con più persone dell'organizzazione per completare le richieste. È inoltre possibile personalizzare i flussi di lavoro in base ai processi aziendali con modelli predefiniti.
 
 Per altre informazioni, vedi [Informazioni sulle richieste di diritti privati per gli utenti](subject-rights-requests.md).
 
@@ -91,28 +91,57 @@ Priva può collaborare con [Microsoft Compliance Manager](/microsoft-365/complia
 
 I dati personali sono in genere informazioni personali correlate a una persona in vita che possono essere utilizzate per identificare tale persona. Può trattarsi di un tipo di dati che può identificare direttamente l'individuo, ad esempio un nome, un numero di passaporto, un numero di previdenza sociale e così via, oppure combinazioni di tipi di dati diversi che possono essere utilizzati per identificare l'individuo. La definizione dei dati personali o delle informazioni personali può variare in base alla legge applicabile, quindi assicurati di comprendere i tipi di dati per i quali hai obblighi legali.
 
-Priva utilizza le funzionalità di base di Microsoft 365 per identificare questi tipi di dati personali in base alle impostazioni, tramite l'uso di tipi di informazioni riservate [(SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Per esaminare l'elenco di tutti i tipi di informazioni riservate definiti, vedere [Definizioni di entità del tipo di informazioni riservate](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Le organizzazioni che sono in grado di creare tipi di informazioni riservate personalizzati possono sfruttare anche quelle con Priva.
+Priva utilizza le funzionalità di base di Microsoft 365 per identificare questi tipi di dati personali in base alle impostazioni, tramite l'uso di tipi di informazioni [riservate (SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Per esaminare l'elenco di tutti i tipi di informazioni riservate definiti, vedere [Definizioni di entità del tipo di informazioni riservate](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Le organizzazioni che sono in grado di creare tipi di informazioni riservate personalizzati possono sfruttare anche quelle con Priva.
 
-Priva valuta i dati dell'organizzazione archiviati nei servizi Microsoft 365 seguenti all'interno del tenant Microsoft 365:
+Priva valuta i dati dell'organizzazione archiviati nei seguenti Microsoft 365 all'interno del tenant Microsoft 365:
 
 - Exchange Online
 - SharePoint Online
 - OneDrive for Business
 - Microsoft Teams
 
-Priva valuta solo i dati all'interno dell'ambiente Microsoft 365'organizzazione. Non accede ai dati personali che non fanno parte dell'ambiente Microsoft 365'organizzazione. Ad esempio, non accede all'account Microsoft 365 personale di un utente.
+Priva valuta solo i dati all'interno dell'ambiente Microsoft 365 dell'organizzazione. Non accede ai dati personali che non fanno parte dell'ambiente Microsoft 365'organizzazione. Ad esempio, non accede all'account Microsoft 365 utente.
+
+## <a name="priva-availability"></a>Priva disponibilità
+
+Microsoft Priva è stato installato in tutto il mondo. A seconda di dove un'organizzazione ha effettuato il provisioning del tenant, Priva potrebbe non essere completamente disponibile. Nell'elenco seguente viene illustrata la disponibilità di Priva in base a dove un'organizzazione ha effettuato il provisioning del tenant. Se Priva non è disponibile per l'utente, **Priva Privacy Risk Management** e **Priva Subject Rights Requests** non verranno visualizzate nella barra di spostamento sinistra del Centro conformità Microsoft 365. Continueremo ad aggiornare questo elenco quando Priva diventa accessibile in tutte le posizioni geografiche.
+
+Visita [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) per altre informazioni sul provisioning dei dati in aree geografiche e paesi.
+
+**Disponibile**
+
+- Australia
+- Brasile
+- Canada
+- Francia
+- Germania
+- India
+- Giappone
+- Regno Unito
+- Stati Uniti (nota: non disponibile per i clienti us government Community (GCC) Moderate, GCC High o Department of Defense (DoD).
+
+**Non ancora disponibile**
+
+- Norvegia
+- Polonia
+- Qatar
+- Singapore
+- Sudafrica
+- Corea del Sud
+- Spagna
+- Svezia
+- Svizzera
+- Emirati Arabi Uniti
 
 ## <a name="more-resources"></a>Altre risorse
 
-Per visualizzare un'anteprima video di Priva, vedi Gestione della privacy basata su [IA](https://www.youtube.com/watch?v=6OLky1biPIQ) per Microsoft 365 da Microsoft Mechanics su YouTube.
+Guarda un video di 13 [minuti che spiega le funzionalità di Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) di Microsoft Mechanics su YouTube.
 
-Per ulteriori informazioni su come Microsoft si approccia alla privacy e protegge i dati, visitare:
-
-- [Microsoft Privacy](/privacy)
+Per altre informazioni su come Microsoft si avvicina alla privacy e protegge i dati, visita [Privacy Microsoft](/privacy).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per iniziare a usare Priva, vedi [Introduzione a Priva](priva-setup.md).
+Per iniziare a usare Priva, vedi [Attività iniziali con Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Dichiarazione di non responsabilità legale
 

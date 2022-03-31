@@ -16,24 +16,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come creare e personalizzare i criteri di privacy per la gestione dei dati personali dell'organizzazione in Microsoft 365.
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249030"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586449"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Creare criteri in Gestione dei rischi per la privacy
 
 È possibile creare nuovi criteri in Gestione dei rischi per la privacy per affrontare gli scenari di rischio importanti per l'organizzazione. Per una guida introduttiva, usare i modelli predefiniti per creare nuovi criteri per la sovraesposizione dei dati, i trasferimenti di dati e la riduzione dei dati e gli scenari. Puoi anche personalizzare i tuoi criteri, usando uno qualsiasi di questi modelli come punto di partenza.
 
-Durante la creazione o la modifica dei criteri, è possibile configurare le notifiche di posta elettronica o, se disponibili, suggerimenti sui criteri per Teams per portare le corrispondenze dei criteri all'attenzione degli utenti per la correzione.
+Durante la creazione o la modifica dei criteri, è possibile configurare le notifiche tramite posta elettronica o, se disponibili, suggerimenti sui criteri per Teams per portare le corrispondenze dei criteri all'attenzione degli utenti per la correzione.
 
 ## <a name="create-a-policy-from-a-template"></a>Creare un criterio da un modello
 
 Seguire questa procedura per creare un criterio utilizzando uno dei modelli predefiniti.
 
-1. [Nell'Centro conformità Microsoft 365](https://compliance.microsoft.com/), passare alla sezione Priva Privacy Risk Management e selezionare **Policies**.
+1. Nel [Centro conformità Microsoft 365,](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Policies**.
 1. Selezionare **Crea un criterio**.
 1. Scegliere il tipo di modello desiderato. Verrà aperto un riquadro a comparsa con informazioni sul modello.
 1. Per esaminare le impostazioni predefinite del modello, inclusi i tipi di dati, i percorsi dei dati e le condizioni che attivano le corrispondenze dei criteri, selezionare **Visualizza impostazioni**.
@@ -48,7 +48,7 @@ Per assumere un controllo granulare delle impostazioni di un criterio, è possib
 
 Tutti i tipi di criteri seguono questo flusso di base. Alcune impostazioni e opzioni cambieranno a seconda del criterio scelto.
 
-1. [Nell'Centro conformità Microsoft 365](https://compliance.microsoft.com/), passare alla sezione Priva Privacy Risk Management e selezionare **Policies**.
+1. Nel [Centro conformità Microsoft 365,](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Policies**.
 1. Selezionare **Crea un criterio**.
 1. Scegliere **l'opzione** Personalizzata per iniziare a usare la procedura guidata.
 1. Scegli il tipo di modello di base: **sovraesposizione** dei dati, **trasferimenti di dati** o **minimizzazione dei dati**. Ognuno di essi offrirà alcune opzioni durante la creazione dei criteri.
@@ -90,13 +90,13 @@ Tieni presente che la capacità complessiva di Gestione dei rischi per la privac
 
 I criteri di minimizzazione dei dati si concentrano sull'età del contenuto e sulla durata dell'ultima modifica. Il monitoraggio dei dati personali ancora conservati in contenuti inutilizzati meno recenti consente di gestire meglio i dati archiviati e ridurre i rischi. Questa impostazione viene gestita nella **schermata** Condizioni.
 
-Per impostazione predefinita, i criteri di minimizzazione dei dati ricercano il contenuto contenente dati personali creati o modificati per l'ultima volta almeno 60 giorni fa. Quando si modifica o si crea un criterio personalizzato, è possibile scegliere tra altri tempi preimpostati.
+Per impostazione predefinita, i criteri di minimizzazione dei dati ricercano il contenuto contenente dati personali creati o modificati per l'ultima volta almeno 30 giorni fa. Quando si modifica o si crea un criterio personalizzato, è possibile scegliere tra altri tempi preimpostati.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>Informazioni sulle impostazioni per i criteri di trasferimento dei dati
 
 I criteri di trasferimento dei dati consentono di monitorare i dati trasferiti tra determinate aree geografiche del mondo o tra diversi reparti dell'organizzazione. Nella schermata **Condizioni** è possibile scegliere i tipi di trasferimenti da cercare nella gestione dei rischi di privacy.
 
-Per impostazione predefinita, i criteri di trasferimento dei dati ricercano i trasferimenti tra il Nord America e altre aree geografiche. Quando si modifica o si crea un criterio personalizzato, è possibile scegliere il tipo di trasferimento e quindi effettuare selezioni per le aree o i reparti del mittente e del destinatario.
+Per impostazione predefinita, i criteri di trasferimento dei dati ricercano i trasferimenti tra America del Nord e altre aree geografiche. Quando si modifica o si crea un criterio personalizzato, è possibile scegliere il tipo di trasferimento e quindi effettuare selezioni per le aree o i reparti del mittente e del destinatario.
 
 I criteri di trasferimento dei dati supportano anche la fornitura di suggerimenti e suggerimenti per i criteri agli utenti in Teams, in modo che possano rimanere informati sulle procedure consigliate per la gestione dei dati. Questa opzione può essere attivata/disattivata **nella schermata** Risultati.
 
