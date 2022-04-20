@@ -1,5 +1,5 @@
 ---
-title: Corrispondenza dei dati per le richieste di diritti dell'oggetto
+title: Corrispondenza dei dati per le richieste di diritti dell'interessato
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,38 +15,38 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni su come caricare informazioni aggiuntive su Microsoft Priva sugli interessati.
-ms.openlocfilehash: 1339962a1c4dba18a1d0b21d8a2cebb17ad0f91a
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Informazioni su come caricare informazioni aggiuntive in Microsoft Priva sugli interessati.
+ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249041"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930583"
 ---
-# <a name="data-matching-for-subject-rights-requests"></a>Corrispondenza dei dati per le richieste di diritti dell'oggetto
+# <a name="data-matching-for-subject-rights-requests"></a>Corrispondenza dei dati per le richieste di diritti dell'interessato
 
-Con la corrispondenza dei dati, le organizzazioni possono consentire a Microsoft Priva di identificare gli interessati in base ai valori dei dati forniti. Ciò consente di aumentare l'accuratezza dell'individuazione del contenuto dell'oggetto dei dati che corrisponde a tali valori sia per il personale interno che per gli utenti esterni con cui si interagisce. Semplifica inoltre la necessità di fornire manualmente i campi durante la creazione delle richieste di diritti dell'oggetto e fornisce il contesto all'interno delle richieste di diritti dell'oggetto e per il riquadro Panoramica che mostra gli elementi con il maggior numero di contenuti dell'oggetto dati. Per altre informazioni su tale visualizzazione, vedi [Trovare e visualizzare i dati personali in Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
+Con la corrispondenza dei dati, le organizzazioni possono consentire a Microsoft Priva di identificare gli interessati in base a valori di dati forniti esatti. Ciò consente di aumentare l'accuratezza dell'individuazione del contenuto dell'interessato che corrisponde a tali valori di dati sia per il personale interno che per gli utenti esterni con cui si interagisce. Semplifica anche la necessità di fornire manualmente i campi durante la creazione delle richieste di diritti dell'oggetto e fornisce il contesto all'interno delle richieste di diritti dell'oggetto e per il riquadro Panoramica che mostra gli elementi con il maggior contenuto dell'interessato. Per altre informazioni su tale visualizzazione, vedere [Trovare e visualizzare i dati personali in Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Per utilizzare la funzionalità di corrispondenza dei dati, è necessario essere membri del gruppo di ruoli Gestione privacy. All'interno di Priva nella [Centro conformità Microsoft 365](https://compliance.microsoft.com/), **selezionare Impostazioni** nella barra di spostamento superiore e quindi **Corrispondenza dati**. Da qui, sarà necessario definire lo schema dei dati personali e fornire un caricamento dei dati personali come illustrato di seguito. Tieni presente che puoi aggiungere elementi e puoi eliminare gli elementi aggiunti tramite l'interfaccia utente. Tuttavia, al momento non puoi modificare un elemento sul posto dall'interfaccia utente.
+Per usare la funzionalità di corrispondenza dei dati, è necessario essere membri del gruppo di ruoli Gestione privacy. Da Priva nel portale di [conformità di Microsoft Purview](https://compliance.microsoft.com/) selezionare **Impostazioni** nel riquadro di spostamento superiore e quindi **Corrispondenza dei dati**. Da qui, sarà necessario definire lo schema dei dati personali e fornire un caricamento dei dati personali come illustrato di seguito. Si noti che è possibile aggiungere elementi ed eliminare gli elementi aggiunti tramite l'interfaccia utente. Al momento, tuttavia, non è possibile modificare un elemento sul posto dall'interfaccia utente.
 
 ## <a name="prepare-for-data-import"></a>Preparare l'importazione dei dati
 
-Prima di definire lo schema o caricare i dati, è necessario identificare l'origine delle informazioni sull'oggetto dei dati. Il formato di file richiesto .csv, che può essere letto da un'applicazione, ad esempio Microsoft Excel. Strutturare l'esportazione in modo che le intestazioni di colonna vengano visualizzate nella prima riga. Queste intestazioni devono includere i nomi degli attributi per lo schema dei dati personali. Controllare il formato dei dati in ogni campo. Se uno dei dati contiene virgole, racchiudere questi valori tra virgolette doppie per assicurarsi che non siano analizzati in campi separati.
+Prima di definire lo schema o caricare i dati, è necessario identificare l'origine delle informazioni dell'interessato. Il formato di file richiesto è .csv, che può essere letto da un'applicazione, ad esempio Microsoft Excel. Strutturare l'esportazione in modo che le intestazioni di colonna vengano visualizzate nella prima riga. Queste intestazioni devono includere i nomi degli attributi per lo schema dei dati personali. Controllare il formato dei dati in ogni campo. Se uno dei dati contiene virgole, racchiudere questi valori tra virgolette doppie per assicurarsi che non vengano analizzati in campi separati.
 
 ## <a name="define-the-personal-data-schema"></a>Definire lo schema dei dati personali
 
-Lo schema dei dati personali descrive gli attributi per gli interessati. Upload questo schema nella prima scheda dell'area delle impostazioni di corrispondenza dei dati. I file necessari includono un file XML **dello schema dei dati** personali e un file XML **del pacchetto** di regole.
+Lo schema dei dati personali descriverà gli attributi per gli interessati. Upload questo schema nella prima scheda dell'area delle impostazioni di corrispondenza dei dati. I file necessari includono un file XML **dello schema dei dati personali** e un file XML **del pacchetto di regole** .
 
 ### <a name="personal-data-schema-xml"></a>XML dello schema dei dati personali
 
-Il file dello schema dei dati personali è un file XML che definisce i nomi di colonna previsti.
+Il file di schema dei dati personali è un file XML che definirà quali nomi di colonna sono previsti.
 
 - Assegnare a questo file di schema *il nomepdm.xml*.
-- Definire ogni nome di colonna utilizzando il tag Nome campo, come illustrato nell'esempio seguente.
-- Utilizzare searchable = "true" per i campi che si desidera siano disponibili per la ricerca, fino a un massimo di cinque campi. Almeno uno dei nomi di campo deve essere ricercabile. Sintassi di esempio: `\<Field name="" searchable=""/>`.
-- Lo schema dei dati personali include una sezione tag DataStore. È necessario mappare quattro campi obbligatori ai nomi dei campi: primaryKeyField, upnField, firstNameField, lastNameField.
+- Definire ogni nome di colonna usando il tag Nome campo come illustrato nell'esempio seguente.
+- Usare ricercabile = "true" per i campi di cui si vuole eseguire la ricerca, fino a un massimo di cinque campi. Almeno uno dei nomi dei campi deve essere ricercabile. Sintassi di esempio: `\<Field name="" searchable=""/>`.
+- Lo schema dei dati personali include una sezione tag DataStore. È necessario eseguire il mapping di quattro campi obbligatori ai nomi dei campi: primaryKeyField, upnField, firstNameField, lastNameField.
 
-Ad esempio, il file XML seguente definisce uno schema di esempio, con cinque campi specificati come ricercabili: PatientID, MRN, SSN, Telefono e DOB. PrimaryKeyField è mappato a PatientID, upnField è mappato a MRN, firstNameField è mappato a FirstName e lastNameField è mappato a LastName.
+Ad esempio, il file XML seguente definisce uno schema di esempio, con cinque campi specificati come ricercabili: PatientID, MRN, SSN, Telefono e DOB. Il parametro primaryKeyField viene mappato a PatientID, upnField viene mappato a MRN, firstNameField viene mappato a FirstName e lastNameField viene mappato a LastName.
 
 È possibile copiare, modificare e usare l'esempio.
 
@@ -68,26 +68,26 @@ Ad esempio, il file XML seguente definisce uno schema di esempio, con cinque cam
 
 ### <a name="rule-package-xml"></a>XML del pacchetto di regole
 
-Quando si configura il pacchetto di regole, assicurarsi di fare riferimento correttamente al file dello schema dei dati personali creato in precedenza: pdm.xml. Nel codice XML del pacchetto di regole di esempio seguente, i campi seguenti devono essere personalizzati per creare il tipo di corrispondenza dati sensibile:
+Quando si configura il pacchetto di regole, assicurarsi di fare riferimento correttamente al file di schema dei dati personali creato in precedenza: pdm.xml. Nel codice XML del pacchetto di regole di esempio seguente, è necessario personalizzare i campi seguenti per creare il tipo sensibile di corrispondenza dei dati:
 
-- **RulePack id** &  **PrivacyMatch id**: utilizzare New-GUID per generare un GUID.
-- **Archivio dati**: questo campo specifica l'archivio dati di ricerca di corrispondenza dei dati personali da utilizzare. Specificare il nome datastore definito di uno schema di dati personali configurato.
-- **idMatch**: questo campo punta all'elemento principale per la corrispondenza dei dati personali.
-  - **Corrisponde**: specifica il campo da utilizzare nella ricerca esatta. Specificare un nome di campo ricercabile dallo schema dei dati personali.
-  - **Classificazione**: questo campo specifica la corrispondenza del tipo sensibile che attiva la ricerca della corrispondenza dei dati personali. È possibile specificare il nome o il GUID di un tipo di informazioni sensibili predefinito o personalizzato esistente. Per evitare problemi di prestazioni, se si utilizza un tipo di informazioni riservate personalizzato come elemento Classification nei dati personali, non utilizzare un tipo di informazioni riservate personalizzato che corrisponderà a una grande percentuale di contenuto (ad esempio "qualsiasi numero" o "qualsiasi parola di cinque lettere"). È consigliabile aggiungere parole chiave di supporto o includere la formattazione nella definizione del tipo di informazioni riservate per la classificazione personalizzata.
-- **Match**: questo campo punta a prove aggiuntive trovate in prossimità di idMatch.
-  - **Corrisponde**: specificare qualsiasi nome di campo nello schema dei dati personali per DataStore.
+- **ID** &  RulePack **ID PrivacyMatch**: usare New-GUID per generare un GUID.
+- **Archivio dati**: questo campo specifica l'archivio dati di ricerca delle corrispondenze dei dati personali da usare. Specificare il nome datastore definito di uno schema di dati personali configurato.
+- **idMatch**: questo campo punta all'elemento primario per la corrispondenza dei dati personali.
+  - **Corrispondenze**: specifica il campo da utilizzare nella ricerca esatta. Specificare un nome di campo ricercabile dallo schema dei dati personali.
+  - **Classificazione**: questo campo specifica la corrispondenza del tipo sensibile che attiva la ricerca della corrispondenza dei dati personali. È possibile specificare il nome o il GUID di un tipo di informazioni sensibili predefinito o personalizzato esistente. Per evitare di causare problemi di prestazioni, se si usa un tipo di informazioni sensibili personalizzato come elemento classificazione nella corrispondenza dei dati personali, non usare un tipo di informazioni sensibili personalizzato che corrisponderà a una grande percentuale di contenuto (ad esempio "qualsiasi numero" o "qualsiasi parola di cinque lettere"). È consigliabile aggiungere parole chiave di supporto o includere la formattazione nella definizione del tipo di informazioni riservate per la classificazione personalizzata.
+- **Corrispondenza**: questo campo punta a prove aggiuntive trovate in prossimità di idMatch.
+  - **Corrispondenze**: specificare qualsiasi nome di campo nello schema dei dati personali per DataStore.
 - **Risorsa**: questa sezione specifica il nome e la descrizione per il tipo sensibile in più impostazioni locali.
-  - **idRef**: fornire il GUID per l'ID ExactMatch.
+  - **idRef**: specificare il GUID per l'ID ExactMatch.
   - **Nome & descrizioni**: personalizzare in base alle esigenze.
 
-Nell'esempio XML del pacchetto di regole seguente si fa riferimento al file di esempio pdm.xml del passaggio precedente che crea l'XML dello schema dei dati personali:
+Nell'esempio XML del pacchetto di regole seguente viene fatto riferimento al file di esempio pdm.xml del passaggio precedente che crea il codice XML dello schema dei dati personali:
 
-- **Datastore**: il nome dataStore fa riferimento al file di schema creato in precedenza: dataStore = "PatientRecords".
-- **idMatch**: il valore idMatch fa riferimento a un campo ricercabile elencato nel file pdm.xml creato in precedenza: idMatch matches = "SSN".
-  - **Classificazione**: il valore di classificazione fa riferimento a un tipo di informazioni riservate esistente o personalizzato: classification = "U.S.S. Social Security Number (SSN)". In questo caso, viene usato il tipo di informazioni sensibili esistente del Numero di previdenza sociale degli Stati Uniti.
+- **Archivio dati**: il nome dell'archivio dati fa riferimento al file di schema creato in precedenza: dataStore = "PatientRecords".
+- **idMatch**: il valore idMatch fa riferimento a un campo ricercabile elencato nel file pdm.xml creato in precedenza: idMatch corrisponde a = "SSN".
+  - **Classificazione**: il valore di classificazione fa riferimento a un tipo di informazioni riservate esistente o personalizzato: classification = "U.S. Social Security Number (SSN)". In questo caso, viene usato il tipo di informazioni sensibili esistente del Numero di previdenza sociale degli Stati Uniti.
 
-Crea un pacchetto di regole in formato XML (con codifica Unicode), come nel codice di esempio seguente. È possibile copiare, modificare e utilizzare questo esempio.
+Creare un pacchetto di regole in formato XML (con codifica Unicode), come nel codice di esempio seguente. È possibile copiare, modificare e usare questo esempio.
 
  ```xml
 <RulePackage xmlns="http://schemas.microsoft.com/office/2020/pdm">
@@ -129,12 +129,12 @@ Crea un pacchetto di regole in formato XML (con codifica Unicode), come nel codi
 </RulePackage>
  ```
 
-## <a name="upload-personal-data"></a>Upload personali
-Dopo aver definito lo schema dei dati personali, è possibile eseguire il caricamento dei **dati personali nella** seconda scheda della pagina delle impostazioni di corrispondenza dei dati. Quando si seleziona **Aggiungi**, scegliere lo schema personale definito nel primo passaggio, quindi caricare il file contenente i dati personali.
+## <a name="upload-personal-data"></a>Upload dati personali
+Dopo aver definito lo schema dei dati personali, è possibile eseguire il **caricamento dei dati personali** nella seconda scheda della pagina delle impostazioni di corrispondenza dei dati. Quando si seleziona **Aggiungi**, scegliere lo schema personale definito nel primo passaggio, quindi caricare il file contenente i dati personali.
 
-È possibile caricare questi dati personali scegliendo un file locale o fornendo un URL della firma di accesso condiviso a un percorso Archiviazione di Microsoft Azure esistente contenente il file di dati personali.
-Se è stato preparato un file come primo passaggio di questo processo conforme allo schema creato, è possibile utilizzare tale file per il caricamento.
+È possibile caricare questi dati personali scegliendo un file locale o fornendo un URL di firma di accesso condiviso a un percorso di Archiviazione di Microsoft Azure esistente contenente il file di dati personali.
+Se è stato preparato un file come primo passaggio di questo processo conforme allo schema creato, è possibile usare tale file per il caricamento.
 
-## <a name="legal-disclaimer"></a>Dichiarazione di non responsabilità legale
+## <a name="legal-disclaimer"></a>Legali
 
 [Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)

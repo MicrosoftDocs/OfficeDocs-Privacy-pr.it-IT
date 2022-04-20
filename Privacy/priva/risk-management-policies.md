@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come creare e personalizzare criteri di privacy per la gestione dei dati personali dell'organizzazione in Microsoft 365.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865775"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930507"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Creare criteri in Gestione dei rischi per la privacy
 
@@ -33,7 +33,7 @@ Durante la creazione o la modifica di criteri, è possibile configurare le notif
 
 Seguire questa procedura per creare un criterio usando uno dei modelli predefiniti.
 
-1. Nella [Centro conformità Microsoft 365](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Criteri**.
 1. Selezionare **Crea un criterio**.
 1. Scegliere il tipo di modello desiderato. Verrà aperto un riquadro a comparsa con informazioni sul modello.
 1. Per esaminare le impostazioni predefinite del modello, inclusi i tipi di dati, i percorsi dei dati e le condizioni corrispondenti ai criteri di attivazione, selezionare **Visualizza impostazioni**.
@@ -48,7 +48,7 @@ Per assumere un controllo granulare delle impostazioni di un criterio, è possib
 
 Tutti i tipi di criteri seguono questo flusso di base. Alcune impostazioni e opzioni cambieranno a seconda dei criteri scelti.
 
-1. Nella [Centro conformità Microsoft 365](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) passare alla sezione Priva Privacy Risk Management e selezionare **Criteri**.
 1. Selezionare **Crea un criterio**.
 1. Scegliere l'opzione **Personalizzata** per iniziare a usare la procedura guidata.
 1. Scegliere il tipo di modello di base: **sovraesposizione dei dati,** **trasferimenti di dati** o **minimizzazione dei dati**. Ognuna di esse fornirà determinate opzioni durante la creazione dei criteri.
