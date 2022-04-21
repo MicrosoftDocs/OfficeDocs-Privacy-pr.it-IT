@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulla versione di valutazione di Microsoft Priva, vedere le azioni consigliate da eseguire durante il periodo di valutazione ed esaminare i collegamenti a una documentazione importante.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930527"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014396"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook di valutazione: Microsoft Priva
 
@@ -87,21 +87,21 @@ Gestione dei rischi per la privacy offre la possibilità di configurare criteri 
 
 ## <a name="create-and-customize-policies"></a>Creare e personalizzare i criteri
 
-Creare nuovi criteri in Gestione dei rischi per la privacy per gestire gli scenari di rischio per la privacy importanti per l'organizzazione. Per una guida introduttiva, usare i modelli predefiniti per creare nuovi criteri per la sovraesposizione dei dati, i trasferimenti di dati, la riduzione al minimo dei dati e gli scenari.
+Creare nuovi criteri in Gestione dei rischi per la privacy per gestire gli scenari di rischio per la privacy importanti per l'organizzazione. Per una guida introduttiva, usare le impostazioni predefinite del modello per creare nuovi criteri per la sovraesposizione dei dati, i trasferimenti di dati e la riduzione al minimo dei dati e scenari.
 
-1. [Creare un criterio da un modello](risk-management-policies.md#create-a-policy-from-a-template)
-1. [Creare un criterio personalizzato](risk-management-policies.md#create-a-custom-policy)
-1. [Informazioni sulle impostazioni chiave per tutti i criteri](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [Informazioni sulle impostazioni per i criteri di minimizzazione dei dati](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [Informazioni sulle impostazioni per i criteri di trasferimento dati](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [Informazioni sulle impostazioni per i criteri di sovraesposizione dei dati](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [Creare un criterio usando un modello con le impostazioni predefinite](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [Creare un criterio personalizzando le impostazioni del modello](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [Informazioni sulle impostazioni chiave per tutti i criteri](risk-management-policies.md)
+1. [Informazioni sulle impostazioni per i criteri di minimizzazione dei dati](risk-management-policy-data-minimization.md)
+1. [Informazioni sulle impostazioni per i criteri di trasferimento dati](risk-management-policy-data-transfer.md)
+1. [Informazioni sulle impostazioni per i criteri di sovraesposizione dei dati](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>Gestire i criteri
 
 Dopo aver creato criteri in Gestione rischi per la privacy per gestire gli scenari di riduzione al minimo, trasferimento dei dati o sovraesposizione dei dati, è possibile rivedere o aggiornare le impostazioni dei criteri. È anche possibile testare un nuovo criterio prima di distribuirlo completamente per l'uso in corso.
 
-1. [Visualizzare i dettagli dei criteri](risk-management-policies-manage.md#view-policy-details)
-1. [Testare i criteri](risk-management-policies-manage.md#test-your-policy)
+1. [Visualizzare i dettagli dei criteri](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [Testare i criteri](risk-management-policies-manage.md#testing-a-policy)
 1. [Eliminare un criterio](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>Informazioni su avvisi e problemi relativi ai criteri
@@ -117,9 +117,9 @@ La revisione degli avvisi consente di identificare i casi che richiedono un foll
 
 Gestione dei rischi per la privacy può notificare direttamente ai proprietari dei contenuti le corrispondenze per la sovraesposizione dei dati, la riduzione al minimo dei dati e i criteri di trasferimento dei dati. Con le notifiche tramite posta elettronica, gli utenti possono facilmente scoprire i contenuti che devono esaminare.
 
-1. [Preparare il contenuto di training per le notifiche dei criteri](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [Configurare le notifiche di posta elettronica per i criteri](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [Correggere i problemi delle notifiche tramite posta elettronica](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [Preparare il contenuto di training per le notifiche dei criteri](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [Configurare le notifiche di posta elettronica per i criteri](risk-management-notifications.md#set-user-email-notifications)
+1. [Visualizzare in anteprima e personalizzare le notifiche tramite posta elettronica](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Inviare notifiche in Teams](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>Informazioni sulle richieste dei diritti dell’interessato

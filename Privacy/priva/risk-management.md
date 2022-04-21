@@ -15,23 +15,23 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni sulle funzionalità della soluzione Gestione dei rischi per la privacy di Microsoft Priva per la gestione della riduzione al minimo dei dati, del trasferimento dei dati e dei rischi di sovraesposizione dei dati. Usare i criteri per rilevare e correggere i problemi.
-ms.openlocfilehash: f5a263a958cd103ef8145f6006f689c9dffea5b0
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+description: Informazioni sulle funzionalità della soluzione Microsoft Priva Privacy Risk Management per la gestione della riduzione al minimo dei dati, del trasferimento dei dati e dei rischi di sovraesposizione dei dati. Usare i criteri per rilevare e correggere i problemi.
+ms.openlocfilehash: 88d7bc968315845eebd6cdcae3d3344c75b31ee7
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865765"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014516"
 ---
 # <a name="learn-about-priva-privacy-risk-management"></a>Informazioni su Priva Privacy Risk Management
 
-Gestione dei rischi per la privacy in Microsoft Priva offre la possibilità di configurare criteri che identificano i rischi per la privacy nell'ambiente Microsoft 365 e consentono una facile correzione. I criteri di Gestione dei rischi per la privacy sono progettati per essere guide interne e possono essere utili:
+Gestione dei rischi per la privacy in Microsoft Priva offre la possibilità di configurare criteri che identificano i rischi per la privacy nell'ambiente Microsoft 365 e consentono una facile correzione. I criteri di gestione dei rischi per la privacy sono progettati per essere guide interne e possono essere utili:
 
-- Rilevare i dati personali sovraesposti in modo che gli utenti possano proteggerli
-- Individuare e limitare i trasferimenti di dati personali tra reparti o confini regionali
-- Aiutare gli utenti a identificare e ridurre la quantità di dati personali inutilizzati archiviati
+- Rilevare i dati personali sovraesposti in modo che gli utenti possano proteggerli.
+- Individuare e limitare i trasferimenti di dati personali tra reparti o confini regionali.
+- Aiutare gli utenti a identificare e ridurre la quantità di dati personali inutilizzati archiviati.
 
-I modelli predefiniti di Gestione dei rischi per la privacy per questi scenari consentono di iniziare facilmente a creare criteri. È anche possibile ottimizzare l'approccio [creando criteri personalizzati](risk-management-policies.md), usando uno di questi modelli come punto di partenza.
+Gestione dei rischi per la privacy offre modelli predefiniti per questi scenari per semplificare la creazione di criteri. È anche possibile ottimizzare l'approccio [creando criteri personalizzati](risk-management-policies.md), usando uno di questi modelli come punto di partenza.
 
 Quando vengono trovate corrispondenze ai criteri, gli amministratori possono esaminare gli avvisi relativi ai risultati e prendere decisioni su come gestire i dati creando problemi per ulteriori azioni da parte degli utenti. Per altre informazioni, vedere [Analizzare e correggere gli avvisi in Gestione dei rischi per la privacy](risk-management-alerts.md). È anche possibile configurare le notifiche tramite posta elettronica e, per i tipi di criteri supportati, Teams notifiche per notificare direttamente ai proprietari dei contenuti le corrispondenze dei criteri. Possono intraprendere azioni correttive da queste notifiche e ottenere altre informazioni sulle procedure consigliate per la gestione dei dati con i collegamenti forniti ai propri materiali di training. Per altre informazioni, vedere [Inviare notifiche utente in Gestione dei rischi per la privacy](risk-management-notifications.md).
 
@@ -51,11 +51,17 @@ Il trasferimento dei dati personali presenta rischi, in particolare quando viene
 
 I criteri di trasferimento dei dati consentono di monitorare i trasferimenti tra aree geografiche diverse o tra i reparti dell'organizzazione, nonché i trasferimenti all'esterno dell'organizzazione. Quando viene rilevata una corrispondenza dei criteri, è possibile inviare agli utenti notifiche tramite posta elettronica che consentono loro di intraprendere azioni correttive direttamente nel messaggio di posta elettronica, ad esempio rendere privati gli elementi di contenuto, notificare i proprietari del contenuto o contrassegnare gli elementi per un'ulteriore revisione.
 
+Informazioni su come creare un [criterio di trasferimento dei dati](risk-management-policy-data-transfer.md).
+
 ## <a name="minimize-stored-data"></a>Ridurre al minimo i dati archiviati
 
 Nel corso del tempo, le aziende possono raccogliere grandi quantità di dati personali da clienti o dipendenti. In alcuni casi sono inclusi i dati che non devono più essere archiviati e che vengono inutilizzati. Questo tipo di dati deve essere ridotto per limitare i rischi per la privacy. I criteri di minimizzazione dei dati possono essere usati per affrontare i rischi di questo tipo.
 
 I criteri di minimizzazione dei dati consentono di cercare i dati archiviati dall'organizzazione per almeno un certo periodo di tempo. Ciò consente di gestire le procedure di archiviazione in corso. Quando vengono trovate corrispondenze ai criteri, le opzioni di correzione includono contrassegnare gli elementi per l'eliminazione, notificare i proprietari del contenuto o contrassegnare gli elementi per un'ulteriore revisione.
+
+## <a name="next-steps-learn-about-policies"></a>Passaggi successivi: informazioni sui criteri
+
+Visitare [Criteri di gestione dei rischi](risk-management-policies.md) per la privacy per informazioni su come creare criteri che rispondono a questi scenaios chiave per la privacy.
 
 ## <a name="legal-disclaimer"></a>Legali
 
