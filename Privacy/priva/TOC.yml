@@ -14,10 +14,14 @@
   items:
     - name: Informazioni sulla gestione dei rischi della privacy
       href: risk-management.md
-    - name: Creare i criteri
+    - name: Informazioni su come creare e gestire i criteri
       href: risk-management-policies.md
-    - name: Gestire i criteri
-      href: risk-management-policies-manage.md
+    - name: Creare un criterio di sovraesposizione dei dati
+      href: risk-management-policy-data-overexposure.md
+    - name: Creare un criterio di trasferimento dati
+      href: risk-management-policy-data-transfer.md
+    - name: Creare criteri di minimizzazione dei dati
+      href: risk-management-policy-data-minimization.md
     - name: Esaminare e correggere gli avvisi
       href: risk-management-alerts.md
     - name: Notifiche dell'utente finale
