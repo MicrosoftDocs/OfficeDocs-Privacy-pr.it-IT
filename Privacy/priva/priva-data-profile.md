@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulla panoramica e sul profilo dati in Priva e su come ottenere informazioni dettagliate sui dati personali nell'ambiente Microsoft 365 dell'organizzazione.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930597"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059750"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Trovare e visualizzare i dati personali in Microsoft Priva
 
@@ -75,7 +75,7 @@ Queste informazioni dettagliate corrispondono anche alle corrispondenze dei crit
 
 #### <a name="items-with-the-most-data-subject-content"></a>Elementi con la maggior parte del contenuto dell'interessato
 
-Queste informazioni dettagliate fanno riferimento alle informazioni della funzionalità di corrispondenza dei dati nelle richieste di diritti degli interessati e visualizzano gli elementi di contenuto individuati all'interno di Microsoft 365 che contengono la maggior parte degli interessati. Per altre informazioni su questa impostazione, vedere [Informazioni sulle richieste di diritti dell'oggetto](subject-rights-requests.md).
+Questa informazione dettagliata illustra gli elementi di contenuto contenenti i dati personali della maggior parte degli interessati. Per ricevere queste informazioni dettagliate, l'organizzazione deve configurare la [corrispondenza dei dati per le richieste di diritti degli interessati](subject-rights-requests-data-match.md).
 
 Questi elementi consentono di confermare la configurazione della corrispondenza dei dati e di attenuare i rischi per la privacy correlati a questi elementi. Selezionare **Visualizza riepilogo** per una visualizzazione di riepilogo. Selezionare **Esplora** per una visualizzazione dettagliata di un massimo di 100 di questi elementi. Qui è possibile visualizzare in anteprima questi elementi e determinare la pertinenza ed esportare l'elenco in formato .csv.
 
