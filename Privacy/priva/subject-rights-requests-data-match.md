@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come caricare informazioni aggiuntive in Microsoft Priva sugli interessati.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930583"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059740"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Corrispondenza dei dati per le richieste di diritti dell'interessato
 
 Con la corrispondenza dei dati, le organizzazioni possono consentire a Microsoft Priva di identificare gli interessati in base a valori di dati forniti esatti. Ciò consente di aumentare l'accuratezza dell'individuazione del contenuto dell'interessato che corrisponde a tali valori di dati sia per il personale interno che per gli utenti esterni con cui si interagisce. Semplifica anche la necessità di fornire manualmente i campi durante la creazione delle richieste di diritti dell'oggetto e fornisce il contesto all'interno delle richieste di diritti dell'oggetto e per il riquadro Panoramica che mostra gli elementi con il maggior contenuto dell'interessato. Per altre informazioni su tale visualizzazione, vedere [Trovare e visualizzare i dati personali in Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Per usare la funzionalità di corrispondenza dei dati, è necessario essere membri del gruppo di ruoli Gestione privacy. Da Priva nel portale di [conformità di Microsoft Purview](https://compliance.microsoft.com/) selezionare **Impostazioni** nel riquadro di spostamento superiore e quindi **Corrispondenza dei dati**. Da qui, sarà necessario definire lo schema dei dati personali e fornire un caricamento dei dati personali come illustrato di seguito. Si noti che è possibile aggiungere elementi ed eliminare gli elementi aggiunti tramite l'interfaccia utente. Al momento, tuttavia, non è possibile modificare un elemento sul posto dall'interfaccia utente.
+Per usare la funzionalità di corrispondenza dei dati, è necessario essere membri del gruppo di ruoli Gestione privacy. Da Priva nel portale di [conformità di Microsoft Purview](https://compliance.microsoft.com/) selezionare **Impostazioni** nel riquadro di spostamento superiore e quindi **Corrispondenza dei dati**. Da qui, sarà necessario definire lo schema dei dati personali e fornire un caricamento dei dati personali come illustrato di seguito. Si noti che è possibile aggiungere elementi ed eliminare gli elementi aggiunti, ma non è possibile modificare un elemento.
 
 ## <a name="prepare-for-data-import"></a>Preparare l'importazione dei dati
 
@@ -35,7 +35,7 @@ Prima di definire lo schema o caricare i dati, è necessario identificare l'orig
 
 ## <a name="define-the-personal-data-schema"></a>Definire lo schema dei dati personali
 
-Lo schema dei dati personali descriverà gli attributi per gli interessati. Upload questo schema nella prima scheda dell'area delle impostazioni di corrispondenza dei dati. I file necessari includono un file XML **dello schema dei dati personali** e un file XML **del pacchetto di regole** .
+Il primo passaggio per configurare la corrispondenza dei dati consiste nel definire lo schema dei dati personali, che descriverà gli attributi per gli interessati. Questo schema verrà caricato nella prima scheda nell'area impostazioni di corrispondenza dei dati. I file necessari includono un file XML **dello schema dei dati personali** e un file XML **del pacchetto di regole** .
 
 ### <a name="personal-data-schema-xml"></a>XML dello schema dei dati personali
 
@@ -129,8 +129,13 @@ Creare un pacchetto di regole in formato XML (con codifica Unicode), come nel co
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>Tipi di informazioni sensibili
+
+Il secondo passaggio nella configurazione della corrispondenza dei dati consiste nel creare tipi di informazioni sensibili univoci per la corrispondenza dei dati personali (PDM). [I tipi di informazioni sensibili (SIT)](/microsoft-365/compliance/sensitive-information-type-learn-about) sono classificatori basati su pattern che rilevano informazioni sensibili come i numeri di previdenza sociale o di carta di credito. La configurazione di un tipo di informazioni sensibili PDM consente di usare valori di dati esatti anziché valori generici per rilevare le corrispondenze. Per iniziare questo passaggio, selezionare **Crea tipo di informazioni sensibili PDM** per avviare la creazione guidata.
+
 ## <a name="upload-personal-data"></a>Upload dati personali
-Dopo aver definito lo schema dei dati personali, è possibile eseguire il **caricamento dei dati personali** nella seconda scheda della pagina delle impostazioni di corrispondenza dei dati. Quando si seleziona **Aggiungi**, scegliere lo schema personale definito nel primo passaggio, quindi caricare il file contenente i dati personali.
+
+Dopo aver definito lo schema dei dati personali e i tipi di informazioni sensibili, il terzo passaggio consiste nel caricare i dati personali. Passare alla scheda **Caricamento dati personali** , selezionare **Aggiungi** e scegliere lo schema personale definito nel primo passaggio, quindi caricare il file contenente i dati personali.
 
 È possibile caricare questi dati personali scegliendo un file locale o fornendo un URL di firma di accesso condiviso a un percorso di Archiviazione di Microsoft Azure esistente contenente il file di dati personali.
 Se è stato preparato un file come primo passaggio di questo processo conforme allo schema creato, è possibile usare tale file per il caricamento.
