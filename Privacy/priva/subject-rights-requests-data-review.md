@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come esaminare i dati delle richieste di diritti degli interessati raccolti da Microsoft Priva e collaborare al completamento della richiesta.
-ms.openlocfilehash: f417ebe6129f877c273fc2613a44e6b4a21f0be0
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3a1211d391ee196ad431fe19ab9134386c9803a4
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930637"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059760"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Esaminare i dati per una richiesta di diritti dell'interessato
 
@@ -33,12 +33,35 @@ Per visualizzare i risultati iniziali della ricerca, passare all'area Priva del 
 
 Selezionare la richiesta nell'elenco per visualizzare i dettagli della richiesta. Qui è possibile ottenere altre informazioni sulle proprietà della richiesta, sui risultati della ricerca e sullo stato della richiesta. Questa pagina diventerà l'hub per lavorare e collaborare alla gestione dei file trovati, alla creazione di report ed esportazioni e al completamento della richiesta.
 
-I riquadri nella pagina dei dettagli della richiesta includono:
+La scheda **Panoramica** della pagina dei dettagli della richiesta fornisce dettagli sulla richiesta, un indicatore di stato che mostra il passaggio corrente e informazioni chiave sui dati trovati. I riquadri in questa pagina includono quanto segue:
 
-- **Dettagli**: i dettagli essenziali sulla richiesta, tra cui la scadenza e la data della richiesta, la relativa descrizione e il relativo regolamento sulla privacy.
-- **Stato**: sequenza temporale che indica i passaggi completati ed eventuali attività ancora da completare.
-- Statistiche sulla fase di avanzamento corrente. Questo riquadro può visualizzare informazioni come un riepilogo della stima dei dati, il numero di elementi trovati nella ricerca e le relative posizioni in Microsoft 365 o lo stato delle esportazioni.
-- **Elementi di priorità da esaminare**: questo riquadro mostrerà informazioni su tutti gli elementi importanti rilevati da Priva. Ad esempio, potrebbero essere incluse informazioni riservate che contengono già un'etichetta di riservatezza Microsoft o elementi con dati relativi a più utenti che potrebbero richiedere la redazione. In questo modo gli amministratori potranno sapere dove iniziare la revisione. Gli elementi di priorità sono disponibili in Dati raccolti filtrando in base alla colonna "Tipi di priorità".
+##### <a name="details"></a>Dettagli
+
+La scheda **Dettagli** visualizza informazioni di base per orientarti verso la richiesta, ad esempio la scadenza, la data di creazione, la descrizione e il regolamento sulla privacy correlati alla richiesta.
+
+##### <a name="progress"></a>Progresso
+
+La scheda **Stato** elenca ogni passaggio del processo: stima dei dati, recupero dei dati, revisione dei dati, generazione di report e chiusura della richiesta. Un cerchio blu pieno accanto al passaggio indica il passaggio attualmente in corso. Un segno di spunta all'interno del cerchio blu indica che il passaggio è completo e il cerchio non riempito indica che il passaggio non è ancora iniziato.
+
+##### <a name="total-number-of-items-found"></a>Numero totale di elementi trovati
+
+Statistiche sulla fase di avanzamento corrente. Questo riquadro può visualizzare informazioni come un riepilogo della stima dei dati, il numero di elementi trovati nella ricerca e le relative posizioni in Microsoft 365 o lo stato delle esportazioni.
+
+##### <a name="priority-items-to-review"></a>Elementi di priorità da esaminare
+
+Il riquadro **Elementi di priorità da rivedere** mostra gli elementi che è possibile assegnare priorità all'avvio della revisione. Il riquadro visualizza un conteggio degli elementi appartenenti alle categorie seguenti:
+- **Riservato**: si tratta di elementi a cui è applicata [un'etichetta di riservatezza Microsoft](/microsoft-365/compliance/sensitivity-labels) . Ad esempio, un documento di Word con un'etichetta "Altamente riservato". 
+- **Dati multi-persona**: questi elementi contengono i dati personali di più persone. Se si desidera includere questi elementi come parte del pacchetto di dati finale, è necessario redigere i dati irrilevanti nei file. Per informazioni dettagliate, vedere [Passaggio 3: Esaminare i dati](#step-3-review-data) riportati di seguito. Si noti che per consentire a Priva di identificare gli elementi con dati multi-persona, l'organizzazione deve configurare la [corrispondenza dei dati per le richieste di diritti degli interessati](subject-rights-requests-data-match.md).
+
+**Come individuare gli elementi di priorità:**
+
+Prima di tutto, assicurarsi di aver abilitato la visualizzazione nella tabella di elementi **Raccolta** dati seguendo la procedura seguente:
+
+- Nella scheda **Dati raccolti** selezionare **Personalizza colonne** nella parte superiore dell'elenco di elementi.
+- Nel riquadro a comparsa **Modifica colonne** posizionare un controllo accanto a **Tipi di priorità**.
+- Selezionare **Applica**. L'elenco di elementi avrà ora una colonna **Tipi di priorità** .
+
+È ora possibile identificare gli elementi di priorità e trovarli ordinando la colonna **Tipo di priorità** per raggruppare tipi simili.
 
 ### <a name="understand-progress-stages"></a>Informazioni sulle fasi di avanzamento
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come creare una nuova richiesta di diritti soggetto in Microsoft Priva.
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930607"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059730"
 ---
 # <a name="create-a-subject-rights-request"></a>Creare una richiesta di diritti dell'oggetto
 
@@ -38,6 +38,21 @@ Priva Subject Rights Requests supporta tre diversi tipi di richieste:
 2. **Esportazione**: fornisce un riepilogo e un file esportato di elementi di contenuto che contengono le informazioni personali dell'interessato. Questi sono gli elementi esaminati e contrassegnati come **Inclusi** durante la revisione dei dati raccolti dalle impostazioni di ricerca.
 
 3. **Elenco con tag per il completamento**: genera un riepilogo di tutti i file contrassegnati durante la revisione dei dati che potrebbero richiedere un'azione aggiuntiva all'esterno di Priva. Ad esempio, potrebbe essere necessario facilitare l'eliminazione delle informazioni personali dell'interessato in base alla richiesta. È possibile visualizzare i tag inclusi e configurare tag personalizzati per l'organizzazione in [Impostazioni Priva](priva-settings.md).
+
+## <a name="getting-started-with-your-first-request"></a>Introduzione alla prima richiesta
+
+Quando si avvia una versione di valutazione o una sottoscrizione di Richieste di diritti dell'oggetto, viene offerta una configurazione semplice e predefinita per la prima richiesta che usa le impostazioni predefinite. Questa configurazione consente di esplorare il flusso di lavoro della richiesta di diritti dell'oggetto e acquisire familiarità con le relative funzionalità.
+
+La prima volta che si arriva alla pagina Richieste di diritti dell'oggetto, verrà visualizzato un banner nella parte superiore con un pulsante **di Attività iniziali**. Quando un utente seleziona questo pulsante, viene visualizzato un riquadro a comparsa con le informazioni dell'utente prepopolato nei campi nome e posta elettronica e vengono visualizzate tutte le impostazioni predefinite.
+
+**Esplorazione della funzionalità di richiesta con le informazioni**: provare una richiesta di diritti dell'oggetto in base alle proprie informazioni può aiutare a acquisire familiarità e comfort nello spostamento in ogni fase del processo. Si vedrà quale yeilds di ricerca predefinita e può esercitarsi a perfezionare i risultati modificando le impostazioni di ricerca. Nella scheda **Dati raccolti** è possibile esaminare gli elementi nell'area di anteprima a destra e praticare la redazione di testo, l'applicazione di tag, l'immissione di note e l'contrassegno di elementi da includere o escludere per il report finale.Trovare i dettagli in [Rivedi i dati per una richiesta di diritti dell'interessato](subject-rights-requests-data-review.md).
+
+- Non è necessario usare le informazioni per creare la prima richiesta. Se si è pronti per avviare una richiesta per un interessato, sostituire semplicemente il nome e l'indirizzo di posta elettronica con le informazioni dell'interessato.
+
+Per accettare tutte le impostazioni e creare la richiesta, selezionare **Crea**. Il riquadro verrà chiuso e la nuova richiesta verrà visualizzata nella pagina **Richieste di diritti dell'oggetto** . Per modificare una delle impostazioni predefinite prima di creare la richiesta, selezionare **Modifica dettagli richiesta**, che consente di accedere alla [creazione guidata della richiesta con diritti dell'oggetto](#use-the-subject-rights-request-creation-wizard).
+
+> [!NOTE]
+> Qualsiasi richiesta creata verrà conteggiata per l'assegnazione della sottoscrizione di valutazione o a pagamento, indipendentemente dalle informazioni dell'interessato usate per la richiesta. Il periodo di conservazione dei dati standard di 30 giorni si applica dopo la chiusura della richiesta. Informazioni su come modificare i [periodi di conservazione per le richieste di diritti dell'oggetto](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>Usare la creazione guidata della richiesta di diritti dell'oggetto
 
