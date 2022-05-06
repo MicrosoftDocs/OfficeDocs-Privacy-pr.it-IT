@@ -17,10 +17,10 @@ search.appverid:
 - MET150
 description: Informazioni su come caricare informazioni aggiuntive in Microsoft Priva sugli interessati.
 ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
+ms.lasthandoff: 05/05/2022
 ms.locfileid: "65059740"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Corrispondenza dei dati per le richieste di diritti dell'interessato
