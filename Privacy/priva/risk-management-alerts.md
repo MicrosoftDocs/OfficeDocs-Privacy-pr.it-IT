@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come gestire avvisi e problemi generati dalle corrispondenze dei criteri in Microsoft Priva Privacy Risk Management.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014386"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268329"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Analizzare e correggere gli avvisi in Gestione dei rischi per la privacy
 
@@ -71,9 +71,9 @@ Per esaminare il contenuto associato a un problema, scegliere l'azione **Rivedi 
 
 - **Notifica al proprietario**: notificare al proprietario del contenuto il problema rilevato.
 
-- **Applica etichetta di conservazione**: aggiungere un'etichetta sulla conservazione dei dati per questo elemento. [Altre informazioni sulle etichette di conservazione](/microsoft-365/compliance/create-apply-retention-labels).
+- **Applica etichetta di conservazione**: aggiungere un'etichetta per questo elemento che può conservare, eliminare o conservare e quindi eliminarla dopo un periodo di tempo specificato. [Altre informazioni sulle etichette di conservazione](/microsoft-365/compliance/retention).
 
-- **Applica etichetta di riservatezza**: aggiungere un'etichetta sulla riservatezza dei dati di questo elemento. [Altre informazioni sulle etichette di riservatezza](/microsoft-365/compliance/sensitivity-labels).
+- **Applica etichetta di riservatezza**: aggiungere un'etichetta per questo elemento che ne identifica la riservatezza e, facoltativamente, aggiungere una protezione che includa contrassegni visivi e crittografia. [Altre informazioni sulle etichette di riservatezza](/microsoft-365/compliance/sensitivity-labels).
 
 - **Contrassegna come non corrispondente**: identificare un risultato di ricerca come falso positivo per rimuovere l'elemento di contenuto dalla considerazione.
 
