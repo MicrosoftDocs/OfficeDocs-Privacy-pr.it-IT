@@ -16,27 +16,27 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni sulla versione di valutazione di Microsoft Priva, vedere le azioni consigliate da eseguire durante il periodo di valutazione ed esaminare i collegamenti a una documentazione importante.
-ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Informazioni sulla versione di valutazione Microsoft Priva, vedere azioni consigliate da eseguire durante il periodo di valutazione ed esaminare i collegamenti a una documentazione importante.
+ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014396"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678203"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook di valutazione: Microsoft Priva
 
-Benvenuti nel playbook di valutazione di Microsoft Priva.
+Benvenuti nel playbook di valutazione Microsoft Priva.
 
 Questo playbook ti aiuterà a sfruttare al meglio la versione di valutazione gratuita di 90 giorni, aiutandoti a proteggere i tuoi dati personali e a creare un ambiente di lavoro resiliente alla privacy.
 
-Usando le raccomandazioni Microsoft, si apprenderà in che modo Priva può aiutare a identificare e proteggere in modo proattivo dai rischi per la privacy, ad esempio l'accaparramento dei dati, i trasferimenti di dati e l'oversharing dei dati, aiutare l'organizzazione ad automatizzare e gestire le richieste degli interessati su larga scala e consentire ai dipendenti di prendere decisioni intelligenti sulla gestione dei dati.
+Usando le raccomandazioni Microsoft, si apprenderà come Priva può aiutare a identificare e proteggere in modo proattivo dai rischi per la privacy, ad esempio l'accaparramento dei dati, i trasferimenti di dati e l'oversharing dei dati, aiutare l'organizzazione ad automatizzare e gestire le richieste degli interessati su larga scala e consentire ai dipendenti di prendere decisioni intelligenti sulla gestione dei dati.
 
 ## <a name="getting-started"></a>Introduzione
 
 *Queste azioni sono consigli sulle funzionalità principali da provare nella versione di valutazione di 90 giorni.*
 
-Avviare la versione di valutazione configurando i prerequisiti. Si noti che Priva è costituito da due soluzioni chiave, Priva Privacy Risk Management e Priva Subject Rights Requests, che possono essere provate e acquistate separatamente. I dettagli relativi alle licenze e agli acquisti sono disponibili in [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
+Avviare la versione di valutazione configurando i prerequisiti. Si noti che Priva è costituito da due soluzioni chiave, Gestione dei rischi per la privacy Priva e Richieste di diritti degli interessati Priva, che possono essere provate e acquistate separatamente. I dettagli relativi alle licenze e agli acquisti sono disponibili in [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
 
 ### <a name="privacy-risk-management"></a>Gestione dei rischi per la privacy
 
@@ -53,14 +53,14 @@ Con la soluzione **Subject Rights Requests** è possibile apprendere come gestir
 
 - Gestire le richieste di diritti dell'interessato su larga scala
 
-## <a name="start-your-microsoft-priva-trial"></a>Avviare la versione di valutazione di Microsoft Priva
+## <a name="start-your-microsoft-priva-trial"></a>Avviare la versione di valutazione Microsoft Priva
 
-Se si è pronti per iniziare a usare Microsoft Priva, seguire questa procedura per configurare i prerequisiti e iniziare a esplorare informazioni dettagliate sulla privacy.
+Se si è pronti per iniziare a usare Microsoft Priva, seguire questa procedura per configurare i prerequisiti e iniziare a esplorare le informazioni dettagliate sulla privacy.
 
-1. [Confermare le sottoscrizioni e le licenze](priva-setup.md#step-1-confirm-subscriptions-and-licensing)
-1. [Impostare le autorizzazioni utente e assegnare ruoli](priva-setup.md#step-3-set-user-permissions-and-assign-roles)
+1. [Confermare le sottoscrizioni e le licenze](priva-setup.md#confirm-subscriptions-and-licensing)
+1. [Impostare le autorizzazioni utente e assegnare ruoli](priva-setup.md#set-user-permissions-and-assign-roles)
 1. Selezionare "Avvia versione di valutazione" e le operazioni seguenti verranno eseguite automaticamente:
-    - Le licenze di valutazione Priva sono abilitate (questo accade in tempo reale)
+    - Priva licenze di valutazione sono abilitate (questo accade in tempo reale)
     - Vengono generate informazioni dettagliate sulla privacy (questa operazione richiede 24 ore)
 
 ![Acquisizione dello schermo della schermata iniziale.](../media/priva-insights.png)
@@ -69,7 +69,7 @@ Se si è pronti per iniziare a usare Microsoft Priva, seguire questa procedura p
 
 Priva consente di comprendere i dati archiviati dall'organizzazione automatizzando l'individuazione degli asset di dati personali e fornendo visualizzazioni di informazioni essenziali.
 
-Per iniziare, passare alla sezione Priva del portale di [conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
+Per iniziare, passare alla sezione Priva del [Portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
 
 1. [Panoramica](priva-data-profile.md#explore-the-overview-page): offre una visualizzazione aggregata del comportamento di privacy, inclusi il volume, la categoria, la posizione e lo spostamento dei dati personali nell'ambiente Microsoft 365. Inoltre, si ottiene visibilità sullo stato corrente e sulle tendenze dei rischi associati alla privacy derivanti dalla sovracondivisione, il trasferimento o l'uso dei dati personali.
 1. [Profilo dati](priva-data-profile.md#explore-the-data-profile-page): fornisce uno snapshot dei dati personali archiviati dall'organizzazione in Microsoft 365, inclusi volume, tipo e posizione (archiviazione e geografia).
@@ -124,7 +124,7 @@ Gestione dei rischi per la privacy può notificare direttamente ai proprietari d
 
 ## <a name="learn-about-subject-rights-requests"></a>Informazioni sulle richieste dei diritti dell’interessato
 
-In conformità con determinate normative sulla privacy in tutto il mondo, gli individui (o gli interessati) possono effettuare richieste di revisione o gestione dei dati personali raccolti dalle aziende. Queste richieste vengono talvolta definite anche richieste dell'interessato (DSR), richieste di accesso degli interessati (DSAR) o richieste di diritti dei consumatori. Priva Subject Rights Requests può essere utile per gestire queste richieste.
+In conformità con determinate normative sulla privacy in tutto il mondo, gli individui (o gli interessati) possono effettuare richieste di revisione o gestione dei dati personali raccolti dalle aziende. Queste richieste vengono talvolta definite anche richieste dell'interessato (DSR), richieste di accesso degli interessati (DSAR) o richieste di diritti dei consumatori. Richieste di diritti degli interessati Priva può essere utile per gestire queste richieste.
 
 1. [Creare richieste e raccogliere dati](subject-rights-requests-create.md)
 1. [Corrispondenza dei dati](subject-rights-requests-data-match.md)
@@ -144,7 +144,7 @@ Gli amministratori di Subject Rights Management possono aprire nuove richieste d
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Gestire la corrispondenza dei dati per le richieste di diritti dell'interessato
 
-Con la corrispondenza dei dati, le organizzazioni possono consentire a Priva di identificare gli interessati in base a valori di dati forniti esatti.
+Con la corrispondenza dei dati, le organizzazioni possono abilitare Priva per identificare gli interessati in base a valori di dati forniti esatti.
 
 1. [Preparare l'importazione dei dati](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [Definire lo schema dei dati personali](subject-rights-requests-data-match.md#define-the-personal-data-schema)
@@ -169,7 +169,7 @@ Dopo aver completato la verifica dei dati per una richiesta di diritti dell'inte
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatizzare le attività relative alle richieste di diritti degli interessati
 
-Abilitare Power Automate flussi per Priva per automatizzare attività importanti per case e utenti, ad esempio la creazione di ticket in ServiceNow o l'aggiunta di promemoria del calendario sulle date di scadenza.
+Abilitare i flussi di Power Automate per Priva per automatizzare attività importanti per case e utenti, ad esempio la creazione di ticket in ServiceNow o l'aggiunta di promemoria del calendario sulle date di scadenza.
 
 1. [Creare un nuovo flusso di Power Automate da un modello](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [Condividere un flusso di Power Automate](subject-rights-requests-automate.md#share-a-power-automate-flow)
@@ -177,10 +177,10 @@ Abilitare Power Automate flussi per Priva per automatizzare attività importanti
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-**Microsoft Docs**: ottenere informazioni dettagliate sul funzionamento di Microsoft Priva e su come implementarlo al meglio per l'organizzazione. [Visitare Docs](priva-overview.md).
+**Microsoft Docs**: ottenere informazioni dettagliate sul funzionamento Microsoft Priva e su come implementarlo al meglio per l'organizzazione. [Visitare Docs](priva-overview.md).
 
-**Perché Microsoft Priva**: altre informazioni sulle funzionalità di Priva sono disponibili in questo [video](https://www.youtube.com/watch?v=6OLky1biPIQ).
+**Perché Microsoft Priva**: altre informazioni sulle funzionalità di Priva in questo [video](https://www.youtube.com/watch?v=6OLky1biPIQ).
 
-**Altre informazioni su Microsoft Priva**: blog, piani e prezzi [sono disponibili qui](https://aka.ms/privacymgmt/web).
+**Altre informazioni su Microsoft Priva**: blog, piani, prezzi [qui](https://aka.ms/privacymgmt/web).
 
-**Acquista Microsoft Priva**: gestione dei rischi per la privacy e richieste di diritti dell'utente vengono vendute separatamente. I dettagli relativi alle licenze e agli acquisti sono disponibili in [Microsoft.com](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
+**Acquisto Microsoft Priva**: La gestione dei rischi per la privacy e le richieste di diritti dell'interessato vengono vendute separatamente. I dettagli relativi alle licenze e agli acquisti sono disponibili in [Microsoft.com](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).

@@ -16,41 +16,41 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni su come configurare le autorizzazioni di Microsoft Priva e assegnare gli utenti ai gruppi di ruoli.
-ms.openlocfilehash: 14ae1b1b9ee1f1ccc8d3a1914f0d7308a8467f23
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+description: Informazioni su come configurare le autorizzazioni Microsoft Priva e assegnare gli utenti ai gruppi di ruoli.
+ms.openlocfilehash: eca08327e2db909475dbf4c072b8f6843de3d57b
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930617"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678223"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-microsoft-priva"></a>Impostare le autorizzazioni utente e assegnare ruoli in Microsoft Priva
 
-Per concedere ai membri dell'organizzazione le autorizzazioni per l'uso di Microsoft Priva, assegnarli ai gruppi di ruoli appropriati nel portale di conformità di Microsoft Purview.
+Per concedere ai membri dell'organizzazione le autorizzazioni per l'uso di Microsoft Priva, assegnarli ai gruppi di ruoli appropriati nel Portale di conformità di Microsoft Purview.
 
 > [!NOTE]
 > La maggior parte dei ruoli Priva è attualmente designata come "gestione della privacy". Per un elenco completo, vedere di seguito. I ruoli specifici di Priva non verranno visualizzati in Azure Active Directory.
 
 ## <a name="sign-in-and-set-permissions"></a>Accedere e impostare le autorizzazioni
 
-1. Passare al [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e selezionare **Autorizzazioni** nel riquadro di spostamento a sinistra.  
-2. Nell'elenco a discesa **Centro conformità** selezionare **Ruoli**. Verrà visualizzato l'elenco completo dei gruppi di ruoli.
-3. Trovare il gruppo di ruoli a cui si vuole aggiungere uno o più utenti e selezionare la casella a sinistra del nome del gruppo.
-4. Nel riquadro a comparsa per il gruppo selezionare **Modifica** nell'intestazione **Membri** .  
-5. Selezionare **Scegli membri**. Verrà visualizzata un'altra finestra a comparsa.
+1. Passare alla [Portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e selezionare **Autorizzazioni** nel riquadro di spostamento a sinistra.  
+2. Nell'elenco a discesa **soluzioni Microsoft Purview** selezionare **Ruoli**. Verrà visualizzato l'elenco completo dei gruppi di ruoli.
+3. Trovare il gruppo di ruoli a cui si desidera aggiungere uno o più utenti (vedere le descrizioni del gruppo di ruoli di seguito) e selezionare la casella a sinistra del nome del gruppo.
+4. Nel riquadro a comparsa per il gruppo selezionare **Modifica** nell'intestazione **Membri**.  
+5. Nel riquadro a comparsa selezionare **Scegli membri** nel riquadro di spostamento sinistro. Verrà visualizzata un'altra finestra a comparsa.
 6. Selezionare **+ Aggiungi** per scegliere uno o più utenti da aggiungere al gruppo.  
 7. Selezionare la casella di controllo accanto ai nomi da aggiungere e quindi selezionare il pulsante **Aggiungi** nella parte inferiore.  
 8. Al termine dell'assegnazione degli utenti, selezionare **Fine**, quindi **Salva** e quindi **Chiudi**.
 
 ## <a name="learn-more-about-role-groups-and-roles"></a>Altre informazioni su gruppi di ruoli e ruoli
 
-A seconda della struttura del team, è possibile assegnare gli utenti a gruppi di ruoli specifici per gestire diversi set di funzionalità Priva. I membri devono essere assegnati ai gruppi di ruoli a seconda delle attività che devono eseguire e del livello di accesso ai file appropriato. Ogni gruppo di ruoli include uno o più ruoli. Questi ruoli possono riguardare specifiche attività Priva o funzioni chiave abilitate o limitate per i membri del gruppo. Utenti diversi possono quindi avere diversi livelli di visibilità e accesso a determinate funzionalità Priva.
+A seconda della struttura del team, è possibile assegnare gli utenti a gruppi di ruoli specifici per gestire diversi set di funzionalità Priva. I membri devono essere assegnati ai gruppi di ruoli a seconda delle attività che devono eseguire e del livello di accesso ai file appropriato. Ogni gruppo di ruoli include uno o più ruoli. Questi ruoli possono riguardare attività di Priva specifiche o funzioni chiave abilitate o limitate per i membri del gruppo. Utenti diversi possono quindi avere diversi livelli di visibilità e accesso a determinate funzionalità di Priva.
 
 I gruppi di ruoli possono essere personalizzati, se necessario. Per evitare la perdita accidentale dell'accesso, è consigliabile creare una copia del gruppo di ruoli esistente da personalizzare, assegnare alla copia un nome identificabile, apportare e verificare le modifiche apportate al nuovo gruppo e assegnarvi le persone in base alle esigenze.
 
 ## <a name="privacy-management-role-group"></a>Gruppo di ruoli Gestione privacy
 
-Questo gruppo contiene tutti i ruoli di autorizzazione Priva in un singolo gruppo. Questo gruppo di ruoli può essere adatto alle organizzazioni in cui lo stesso individuo può svolgere tutti i compiti. L'appartenenza a questo gruppo di ruoli concederà all'account l'accesso completo a tutte le funzionalità di Priva per cui si ha una licenza.
+Questo gruppo contiene tutti i ruoli di autorizzazione Priva in un singolo gruppo. Questo gruppo di ruoli può essere adatto alle organizzazioni in cui lo stesso individuo può svolgere tutti i compiti. L'appartenenza a questo gruppo di ruoli concederà a tale account l'accesso completo a tutte le funzionalità di Priva per cui si dispone di una licenza.
 
 È consigliabile assicurarsi che sia sempre presente almeno un membro attivo di questo gruppo.
 
@@ -59,23 +59,23 @@ I ruoli includono:
 - Gestione dei casi  
 - Visualizzatore contenuto classificazione dati  
 - Visualizzatore elenco classificazione dati  
-- Amministratore della gestione della privacy  
+- Amministrazione gestione della privacy  
 - Analisi della gestione della privacy  
 - Indagine sulla gestione della privacy  
 - Contributo permanente alla gestione della privacy  
 - Contributo temporaneo alla gestione della privacy  
 - Visualizzatore gestione privacy  
-- Amministratore della richiesta di diritti dell'oggetto  
+- Amministrazione di richiesta di diritti dell'interessato  
 - caso View-Only
 
 ## <a name="privacy-management-administrators-role-group"></a>Gruppo di ruoli Amministratori gestione privacy
 
-I membri di questo gruppo di ruoli hanno un ampio accesso alle funzioni Priva, tra cui la creazione, la lettura, l'aggiornamento e l'eliminazione di criteri di gestione dei rischi per la privacy, richieste di diritti dell'interessato, autorizzazioni e impostazioni.
+I membri di questo gruppo di ruoli hanno un ampio accesso alle funzioni di Priva, tra cui la creazione, la lettura, l'aggiornamento e l'eliminazione di criteri di gestione dei rischi per la privacy, richieste di diritti dell'interessato, autorizzazioni e impostazioni.
 
 I ruoli includono:
 
 - Gestione dei casi  
-- Amministratore della gestione della privacy  
+- Amministrazione gestione della privacy  
 - caso View-Only
 
 ## <a name="privacy-management-analysts-role-group"></a>Gruppo di ruoli Analisti di gestione della privacy
@@ -103,7 +103,7 @@ I ruoli includono:
 
 ## <a name="privacy-management-viewer-role-group"></a>Gruppo di ruoli Visualizzatore gestione privacy
 
-I membri di questo gruppo possono visualizzare le informazioni analitiche in Priva, ad esempio la panoramica, il profilo dati e i report sulle richieste dell'interessato.
+I membri di questo gruppo possono visualizzare informazioni analitiche in Priva, ad esempio la panoramica, il profilo dati e i report sulle richieste dell'interessato.
 
 I ruoli includono:
 
@@ -115,7 +115,7 @@ I membri di questo gruppo hanno accesso completo per amministrare e creare richi
 
 I ruoli includono:
 
-- Amministratore della richiesta di diritti dell'oggetto
+- Amministrazione di richiesta di diritti dell'interessato
 
 ## <a name="privacy-management-contributors-role-group"></a>Gruppo di ruoli Collaboratori alla gestione della privacy
 
@@ -128,4 +128,4 @@ I ruoli includono:
 
 ## <a name="legal-disclaimer"></a>Legali
 
-[Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva dichiarazione di non responsabilità legale](priva-disclaimer.md)
