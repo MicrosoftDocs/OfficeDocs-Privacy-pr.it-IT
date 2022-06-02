@@ -1,5 +1,5 @@
 ---
-title: Inviare notifiche utente in Gestione dei rischi per la privacy
+title: Notifiche utente in Gestione dei rischi per la privacy
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni su come notificare ai proprietari dei contenuti le corrispondenze ai criteri trovate da Microsoft Priva Privacy Risk Management e come possono usare queste notifiche tramite posta elettronica per risolvere i problemi.
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Informazioni su come notificare ai proprietari del contenuto le corrispondenze dei criteri trovate da Gestione dei rischi per la privacy Microsoft Priva e come possono usare queste notifiche di posta elettronica per risolvere i problemi.
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014376"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851651"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>Notifiche utente in Gestione dei rischi per la privacy
 
@@ -48,7 +48,7 @@ Prima di configurare i criteri, decidere l'URL di training da includere. È poss
 È possibile configurare le notifiche tramite posta elettronica per tutti i tipi di criteri quando si crea un nuovo criterio o si modifica un criterio esistente. Queste impostazioni sono disponibili nella pagina **Risultati** della creazione guidata criteri. Vedere [Definire i risultati: notifiche utente e suggerimenti](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) per le istruzioni complete.
 
 > [!NOTE]
-> La capacità complessiva di Gestione dei rischi per la privacy di inviare notifiche tramite posta elettronica è controllata in Priva **Impostazioni**. È disabilitato per impostazione predefinita. Se si disattiva questa impostazione, tutti i messaggi di posta elettronica verranno arrestati anche se le notifiche sono state configurate a livello di singolo criterio. Altre informazioni sulle [impostazioni di posta elettronica per le notifiche utente](priva-settings.md#user-notification-emails).
+> La funzionalità complessiva di Gestione dei rischi per la privacy di inviare notifiche tramite posta elettronica è controllata in Priva **Impostazioni**. È disabilitato per impostazione predefinita. Se si disattiva questa impostazione, tutti i messaggi di posta elettronica verranno arrestati anche se le notifiche sono state configurate a livello di singolo criterio. Altre informazioni sulle [impostazioni di posta elettronica per le notifiche utente](priva-settings.md#user-notification-emails).
 
 ## <a name="send-notifications-in-teams"></a>Inviare notifiche in Teams
 
@@ -77,4 +77,4 @@ Le impostazioni di notifica saranno ora valide per questo criterio. Se i criteri
 
 ## <a name="legal-disclaimer"></a>Legali
 
-[Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva dichiarazione di non responsabilità legale](priva-disclaimer.md)

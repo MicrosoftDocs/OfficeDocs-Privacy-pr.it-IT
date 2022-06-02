@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulle richieste di diritti dei soggetti privati
+title: Informazioni su Richieste di diritti degli interessati Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,47 +16,47 @@ search.appverid:
 - MOE150
 - MET150
 description: La soluzione Subject Rights Requests in Microsoft Priva consente di trovare i dati personali e collaborare alla revisione del contenuto e alla creazione di report.
-ms.openlocfilehash: 37ee3fc795559d216a7a8cd620cff2c3ca689c2b
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930627"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851681"
 ---
-# <a name="learn-about-priva-subject-rights-requests"></a>Informazioni sulle richieste di diritti dei soggetti privati
+# <a name="learn-about-priva-subject-rights-requests"></a>Informazioni su Richieste di diritti degli interessati Priva
 
-In conformità con determinate normative sulla privacy in tutto il mondo, gli individui (o *gli interessati*) possono effettuare richieste di revisione o gestione dei dati personali raccolti dalle aziende. Queste richieste vengono talvolta definite anche richieste dell'interessato (DSR), richieste di accesso degli interessati (DSAR) o richieste di diritti dei consumatori. Per le aziende che archiviano grandi quantità di informazioni, trovare i dati pertinenti può essere un compito formidabile.
+Diverse normative sulla privacy in tutto il mondo concedono agli utenti o *agli interessati* il diritto di effettuare richieste di revisione o gestione dei dati personali raccolti dalle aziende su di loro. Queste richieste di diritti dell'interessato sono dette anche richieste dell'interessato (DSR), richieste di accesso degli interessati (DSAR) o richieste di diritti dei consumatori. Per le aziende che archiviano grandi quantità di informazioni, trovare i dati pertinenti può essere un compito formidabile. Soddisfare le richieste, per la maggior parte delle organizzazioni, è un processo altamente manuale e dispendioso in termini di tempo.
 
-Microsoft Priva consente di gestire queste richieste tramite la soluzione Subject Rights Requests. Offre funzionalità di flusso di lavoro, automazione e collaborazione che consentono di cercare i dati degli interessati, esaminare i risultati, raccogliere i file appropriati e produrre report.
+La soluzione Richieste di diritti degli interessati Microsoft Priva è progettata per ridurre la complessità e la durata del tempo necessario per rispondere alle richieste degli interessati. Forniamo automazione, informazioni dettagliate e flussi di lavoro per aiutare le organizzazioni a soddisfare le richieste in modo più sicuro ed efficiente.
 
-## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>In che modo Priva supporta l'evasione delle richieste di diritti degli interessati
+## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Come Priva supporta l'evasione delle richieste di diritti dell'interessato
 
-Il ciclo di richiesta dei diritti dell'oggetto inizia con la richiesta di un utente all'organizzazione. Dopo la ricezione, è possibile usare le funzionalità di Priva per raccogliere i dati, collaborare, esaminare e creare report. È quindi possibile informare l'interessato dei risultati e intraprendere qualsiasi altra azione necessaria al di fuori di Priva per soddisfare la richiesta, ad esempio l'eliminazione dei dati. Per gestire e automatizzare i flussi di lavoro lungo il percorso, è anche possibile usare modelli di Power Automate integrati.
+Automazione e strumenti di flusso di lavoro affidabili sono integrati nell'intera soluzione Subject Rights Requests. Dopo aver creato una richiesta nel sistema, viene eseguita l'identificazione e la raccolta dei dati e vengono forniti strumenti per facilitare l'analisi collaborativa.
 
-### <a name="create-requests-and-collect-data"></a>Creare richieste e raccogliere dati
+### <a name="immediate-kickoff-of-data-evaluation"></a>Avvio immediato della valutazione dei dati
 
-Priva offre potenti opzioni di ricerca per trovare i dati correlati all'interessato nel contenuto archiviato dall'organizzazione in Microsoft 365. Consente inoltre di assegnare priorità agli elementi da esaminare all'interno dei dati raccolti per queste richieste. Priva è a conoscenza delle etichette di riservatezza di Microsoft Purview Information Protection, che indicano contenuti potenzialmente riservati e che possono richiedere una revisione speciale e contrassegna gli elementi con queste etichette. Inoltre, Priva può rilevare e contrassegnare gli elementi che possono contenere i dati di più persone, in cui potrebbe essere necessario redigere il contenuto prima di fornirlo all'interessato.
+Priva usa le funzionalità fondamentali di Microsoft 365 per identificare i tipi di dati personali nei dati dell'organizzazione. Non appena si crea una richiesta, la soluzione può immediatamente identificare i file, i messaggi di posta elettronica, i siti e le chat che contengono i dati personali dell'interessato. Gli elementi di contenuto verranno recuperati entro poche ore, a seconda della quantità di dati. Se prevediamo di trovare un volume elevato, ti offriremo la possibilità di perfezionare i parametri di ricerca prima di raccogliere i dati.
 
-Per altre informazioni, vedere [Creare una richiesta di diritti dell'oggetto](subject-rights-requests-create.md).
+### <a name="help-in-prioritizing-content-to-review"></a>Guida alla definizione della priorità del contenuto da rivedere
 
-### <a name="data-matching"></a>Corrispondenza dei dati
+Potrebbe essere necessario esaminare una grande quantità di dati raccolti per la richiesta dell'interessato. Vengono fornite informazioni dettagliate sulla schermata dei dettagli di ogni richiesta e vengono suggeriti gli elementi da classificare in ordine di priorità per la revisione. Gli elementi di priorità includono file che possono essere riservati o elementi contenenti più dati personali di una persona. Questi elementi evidenziano il contenuto che potrebbe richiedere la redazione o altre considerazioni speciali sulla gestione.
 
-Con la corrispondenza dei dati, è possibile abilitare Priva per identificare gli interessati in base a valori di dati forniti esatti. Il caricamento di informazioni di questo tipo può contribuire ad aumentare l'accuratezza di individuazione del contenuto e semplifica la necessità di fornire manualmente i campi durante la creazione della richiesta di diritti dell'oggetto. Fornisce anche il contesto all'interno delle richieste di diritti dell'interessato e per il riquadro Panoramica che mostra gli elementi con la maggior parte del contenuto dell'interessato. Per altre informazioni, vedere [Corrispondenza dei dati per le richieste di diritti dell'interessato](subject-rights-requests-data-match.md).
+### <a name="built-in-teams-collaboration-and-editing-tools-to-facilitate-data-review"></a>Strumenti predefiniti Teams collaborazione e modifica per facilitare la revisione dei dati
 
-### <a name="review-data-and-collaborate-on-requests"></a>Esaminare i dati e collaborare alle richieste
+Non appena si crea la richiesta, viene automaticamente configurato un canale di Teams dedicato per tale richiesta. L'aggiunta di stakeholder pertinenti come collaboratori alle richieste li inviterà nella chat per analizzare e prendere decisioni sugli elementi recuperati. Usando gli strumenti di redazione predefiniti all'interno della richiesta, i collaboratori possono contrassegnare i file in una schermata di revisione accanto all'elenco di elementi. Se alcuni contenuti richiedono un'ulteriore azione di follow-up, è possibile applicare tag definiti dall'organizzazione per identificare gli elementi e intraprendere l'azione in un secondo momento.
 
-Dopo aver raccolto i dati, è possibile valutare i risultati, selezionare gli elementi più rilevanti da includere nei report e nelle esportazioni e apportare eventuali modifiche necessarie. Questa operazione può essere eseguita in collaborazione tra i membri del team all'interno della pipeline Richieste di diritti dell'oggetto.
+### <a name="automatically-generated-reports"></a>Report generati automaticamente
 
-Per altre informazioni, vedere [Esaminare i dati per una richiesta di diritti dell'interessato](subject-rights-requests-data-review.md).
+Dopo aver esaminato i dati e aver deciso cosa includere per la richiesta, vengono generati report per l'utente. I report includono qualsiasi pacchetto di dati pertinente che verrà inviato all'interessato, i log di controllo e un riepilogo dei file contrassegnati in modo da poter completare le azioni di follow-up necessarie.
 
-### <a name="fulfill-requests"></a>Soddisfare le richieste
+### <a name="solutions-that-extend-and-integrate-with-your-subject-request-strategy"></a>Soluzioni che si estendono e si integrano con la strategia di richiesta dell'oggetto
 
-Priva offre strumenti per creare report e raccogliere file da inviare agli interessati. Per altre informazioni, vedere [Generare report e soddisfare una richiesta di diritti dell'oggetto](subject-rights-requests-reports.md).
+Estendere le funzionalità di automazione usando uno dei modelli di Power Automate predefiniti per configurare i flussi per le attività comuni, ad esempio l'impostazione di promemoria del calendario o la creazione di record delle richieste in ServiceNow. È anche possibile usare l'API Microsoft 365 Subject Rights Request per introdurre l'automazione alla strategia esistente per i diritti dei soggetti.
 
-### <a name="automate-tasks"></a>Automatizzazione delle attività
+## <a name="getting-started"></a>Introduzione
 
-È possibile creare e automatizzare i processi del flusso di lavoro in Priva con modelli di Power Automate predefiniti. Questi modelli supportano attività come l'archiviazione di ticket in ServiceNow o la configurazione degli inviti al calendario. Per altre informazioni, vedere [Automatizzare le attività in Richieste di diritti dell'oggetto](subject-rights-requests-automate.md).
+Per informazioni su come ottenere informazioni sulla prima richiesta, vedere [Creare una richiesta di diritti per l'oggetto](subject-rights-requests-create.md) .
 
 ## <a name="legal-disclaimer"></a>Legali
 
-[Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva dichiarazione di non responsabilità legale](priva-disclaimer.md)
