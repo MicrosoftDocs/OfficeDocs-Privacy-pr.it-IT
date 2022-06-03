@@ -32,11 +32,11 @@
       href: subject-rights-requests.md
     - name: Creare le richieste
       href: subject-rights-requests-create.md
-    - name: Configurare la corrispondenza di dati
-      href: subject-rights-requests-data-match.md
     - name: Esamina i dati e collabora
       href: subject-rights-requests-data-review.md
-    - name: Ottenere report e soddisfare le richieste
+    - name: Generare i report per soddisfare le richieste
       href: subject-rights-requests-reports.md
-    - name: Automatizzazione delle attività
+    - name: Integrazione con Microsoft Graph API e Power Automate
       href: subject-rights-requests-automate.md
+    - name: Configurare la corrispondenza di dati
+      href: subject-rights-requests-data-match.md
