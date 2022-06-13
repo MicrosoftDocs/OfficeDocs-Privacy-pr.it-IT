@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni su come creare criteri di sovraesposizione dei dati in Microsoft Priva Privacy Risk Management per identificare e proteggere i dati personali che potrebbero essere eccessivamente accessibili.
-ms.openlocfilehash: a0c87a84a78206862d9a79e1c16d17a90de5f040
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Informazioni su come creare criteri di sovraesposizione dei dati in Gestione dei rischi per la privacy Microsoft Priva identificare e proteggere i dati personali che potrebbero essere eccessivamente accessibili.
+ms.openlocfilehash: 6efb92ed5d1b79b0fc69beebd5788062b5687269
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014506"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046680"
 ---
 # <a name="data-overexposure-policies-in-privacy-risk-management"></a>Criteri di sovraesposizione dei dati in Gestione dei rischi per la privacy
 
@@ -39,7 +39,7 @@ I criteri di sovraesposizione dei dati predefiniti valutano i dati personali a t
 
 Seguire questa procedura per creare un criterio di trasferimento dati predefinito:
 
-1. Nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/) individuare Priva Privacy Risk Management nel riquadro di spostamento a sinistra e selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) individuare Gestione dei rischi per la privacy Priva nel riquadro di spostamento a sinistra e selezionare **Criteri**.
 
 2. Selezionare **Crea un criterio** nell'angolo in alto a destra della schermata, in cui viene visualizzato un riquadro a comparsa che elenca tutte le opzioni di creazione dei criteri.
 
@@ -75,7 +75,7 @@ L'opzione dei criteri personalizzati è un processo guidato per creare un nuovo 
 
 Completare i passaggi seguenti per creare un nuovo criterio di sovraesposizione dei dati:
 
-1. Nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/) individuare Priva Privacy Risk Management nel riquadro di spostamento a sinistra e selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) individuare Gestione dei rischi per la privacy Priva nel riquadro di spostamento a sinistra e selezionare **Criteri**.
 
 2. Selezionare il pulsante **Crea un criterio** in alto a destra nella schermata, in cui viene visualizzato un riquadro a comparsa che elenca tutte le opzioni di creazione dei criteri.
 

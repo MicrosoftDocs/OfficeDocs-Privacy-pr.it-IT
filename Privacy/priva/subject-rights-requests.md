@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La soluzione Subject Rights Requests in Microsoft Priva consente di trovare i dati personali e collaborare alla revisione del contenuto e alla creazione di report.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851681"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046710"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Informazioni su Richieste di diritti degli interessati Priva
 
@@ -53,9 +53,9 @@ Dopo aver esaminato i dati e aver deciso cosa includere per la richiesta, vengon
 
 Estendere le funzionalità di automazione usando uno dei modelli di Power Automate predefiniti per configurare i flussi per le attività comuni, ad esempio l'impostazione di promemoria del calendario o la creazione di record delle richieste in ServiceNow. È anche possibile usare l'API Microsoft 365 Subject Rights Request per introdurre l'automazione alla strategia esistente per i diritti dei soggetti.
 
-## <a name="getting-started"></a>Introduzione
+## <a name="next-steps"></a>Passaggi successivi
 
-Per informazioni su come ottenere informazioni sulla prima richiesta, vedere [Creare una richiesta di diritti per l'oggetto](subject-rights-requests-create.md) .
+Visitare [la pagina Informazioni sul flusso di lavoro della richiesta e sui dettagli](subject-rights-requests-workflow.md) per informazioni sui passaggi di avanzamento nella creazione e nell'utilizzo di una richiesta di diritti dell'oggetto. Per iniziare a usare la prima richiesta, vedere [Creare una richiesta di diritti dell'oggetto](subject-rights-requests-create.md).
 
 ## <a name="legal-disclaimer"></a>Legali
 

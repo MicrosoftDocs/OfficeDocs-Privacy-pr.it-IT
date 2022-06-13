@@ -1,5 +1,5 @@
 ---
-title: Generare report per soddisfare una richiesta di diritti dell'oggetto
+title: Generare report e chiudere una richiesta
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come gestire i pacchetti di dati creati da Microsoft Priva per le richieste di diritti dell'interessato e soddisfare la richiesta all'interessato.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851662"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046690"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>Generare report per soddisfare una richiesta di diritti dell'oggetto
+# <a name="generate-reports-and-close-a-request"></a>Generare report e chiudere una richiesta
 
-Dopo aver completato la verifica dei dati per una richiesta di diritti dell'interessato in Microsoft Priva, è possibile procedere per soddisfare la richiesta. Priva creerà report e raccoglierà i file contrassegnati come **Includi** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati all'interessato per completare la richiesta.
+**In questo articolo**: Comprendere il tipo di report generati nelle richieste di diritti dell'oggetto. Informazioni sui periodi di conservazione per i dati raccolti e istruzioni per la distribuzione dei risultati all'interessato e la chiusura della richiesta.
+
+Dopo aver completato la verifica dei dati per una richiesta di diritti dell'interessato, la fase successiva consiste nel generare i report necessari per soddisfare la richiesta. Priva creerà report e raccoglierà i file contrassegnati come **Includi** durante il processo di revisione dei dati. I file selezionati da questi pacchetti di dati possono essere inviati all'interessato per completare la richiesta.
 
 ## <a name="understanding-reports"></a>Informazioni sui report
 
@@ -37,7 +39,7 @@ I report sono suddivisi in due sezioni:
    > Verrà generato un pacchetto di dati solo se gli elementi vengono contrassegnati come **Includi** durante la revisione dei dati.
 
    > [!IMPORTANT]
-   > Verrà generato un pacchetto di dati solo per i tipi di richieste **di esportazione** e **accesso** . Non verrà generato un pacchetto di dati per un **elenco con tag per la richiesta di completamento** . Esaminare i dettagli sui [tipi di richiesta di diritti dell'oggetto](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+   > Verrà generato un pacchetto di dati solo per i tipi di richieste **di esportazione** e **accesso** . Non verrà generato un pacchetto di dati per un **elenco con tag per la richiesta di completamento** . Esaminare i dettagli sui [tipi di richiesta di diritti dell'oggetto](subject-rights-requests-create.md#request-types).
 
 2. **Report per uso interno**: questi report si riferiscono ai record interni dell'organizzazione correlati alla richiesta di diritti dell'oggetto. Includono un log di controllo e un elenco di tutti i file a cui sono stati applicati i tag durante la revisione dei dati per completare o intraprendere ulteriori azioni.
 
@@ -102,6 +104,12 @@ Il periodo di conservazione dei dati è definito in Priva **Impostazioni** e si 
 4. Selezionare **Salva** per salvare le impostazioni.
 
 Assicurarsi di verificare che i periodi di conservazione dei dati scelti siano conformi ai criteri e agli obblighi legali dell'organizzazione.
+
+## <a name="close-the-request"></a>Chiudere la richiesta
+
+Dopo aver eseguito tutte le azioni necessarie relative alla richiesta di diritti dell'oggetto, contrassegnare la richiesta come chiusa selezionando **Chiudi la richiesta** in alto a destra nella pagina dei dettagli della richiesta. Una richiesta chiusa significa che non è più attiva e indica che non sono necessarie altre operazioni per soddisfare la richiesta originale dell'interessato all'organizzazione.
+
+Le richieste chiuse non possono essere riaperte, ma è possibile tornare alla richiesta per visualizzare i dettagli e le note della richiesta. I report per la richiesta vengono conservati in base al [periodo di conservazione](#retention-periods-for-reports-and-data) stabilito.
 
 ## <a name="legal-disclaimer"></a>Legali
 

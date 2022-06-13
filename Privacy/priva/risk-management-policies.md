@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Informazioni su come creare e gestire i criteri in Microsoft Priva Privacy Risk Management per la gestione dei dati personali dell'organizzazione in Microsoft 365.
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Informazioni su come creare e gestire criteri in Gestione dei rischi per la privacy Microsoft Priva per la gestione dei dati personali dell'organizzazione in Microsoft 365.
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014496"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046610"
 ---
 # <a name="privacy-risk-management-policies"></a>Criteri di gestione dei rischi per la privacy
 
@@ -43,7 +43,7 @@ Gestione dei rischi per la privacy ha tre modelli di criteri progettati per aiut
 
 Quando si creano criteri direttamente da un modello, la maggior parte delle impostazioni verrà scelta automaticamente per semplificare l'esecuzione. Seguire questa procedura per creare un criterio con le impostazioni predefinite usando uno dei modelli seguenti:
 
-1. Nel [Centro conformità Microsoft Purview](https://compliance.microsoft.com/) individuare Priva Privacy Risk Management nel riquadro di spostamento a sinistra e selezionare **Criteri**.
+1. Nel [Centro conformità Microsoft Purview](https://compliance.microsoft.com/) individuare Gestione dei rischi per la privacy Priva nel riquadro di spostamento a sinistra e selezionare **Criteri**.
 
 2. Selezionare **Crea un criterio** nell'angolo in alto a destra della schermata, in cui viene visualizzato un riquadro a comparsa che elenca tutte le opzioni di creazione dei criteri.
 
@@ -61,7 +61,7 @@ L'opzione dei criteri personalizzati è un processo guidato per la creazione di 
 
 Seguire la procedura seguente per creare un criterio:
 
-1. Nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/) individuare Priva Privacy Risk Management nel riquadro di spostamento sinistro. Dal menu a discesa selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) individuare Gestione dei rischi per la privacy Priva nel riquadro di spostamento a sinistra. Dal menu a discesa selezionare **Criteri**.
 
 2. Selezionare **Crea un criterio**.
 
@@ -121,7 +121,7 @@ Sono disponibili due opzioni per decidere quali utenti verranno trattati da un c
 
 Dopo aver progettato utenti e gruppi, selezionare **Avanti** per passare al passaggio successivo.
 
-## <a name="choose-locations"></a>Scegliere le posizioni
+## <a name="choose-locations"></a>Scelta delle posizioni
 
 In questo passaggio si designerà dove nell'ambiente di Microsoft 365 si vuole che i criteri cerchino corrispondenze di dati personali. Le opzioni relative alla posizione dipendono dal tipo di criterio ed è possibile selezionarne più di una. Ognuna delle posizioni è illustrata di seguito.
 
@@ -273,7 +273,7 @@ Nella finestra di anteprima sono disponibili le schede seguenti che forniscono d
 
 Per modificare un criterio, seguire questa procedura:
 
-1. Nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/) individuare Priva Privacy Risk Management nel riquadro di spostamento sinistro. Dal menu a discesa selezionare **Criteri**.
+1. Nel [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) individuare Gestione dei rischi per la privacy Priva nel riquadro di spostamento a sinistra. Dal menu a discesa selezionare **Criteri**.
 
 2. Selezionare il criterio da modificare dalla relativa riga nella pagina **Criteri** , che visualizza la pagina dei dettagli del criterio.
 
@@ -295,4 +295,4 @@ Dopo l'attivazione dei criteri e l'avvio della generazione di avvisi, è consigl
 
 ## <a name="legal-disclaimer"></a>Legali
 
-[Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva dichiarazione di non responsabilità legale](priva-disclaimer.md)
