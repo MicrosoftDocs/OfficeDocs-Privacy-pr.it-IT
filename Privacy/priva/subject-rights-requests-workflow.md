@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Comprendere i passaggi del flusso di lavoro e la pagina dei dettagli della richiesta in Richieste di diritti degli interessati Microsoft Priva.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046740"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060088"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>Informazioni sulle pagine dei dettagli del flusso di lavoro e della richiesta
 
@@ -45,9 +45,15 @@ Ogni richiesta viene eseguita in più fasi. Alcune fasi vengono eseguite automat
 
 ## <a name="understanding-the-request-details-page"></a>Informazioni sulla pagina dei dettagli della richiesta
 
-Selezionare **Richieste di diritti degli interessati Priva** nel riquadro di spostamento a sinistra del portale di conformità di Microsoft Purview per accedere alle richieste create dall'organizzazione e visualizzarne lo stato. Le schede di stato nella pagina principale Richieste di diritti soggetto mostrano il numero di richieste attive, chiuse e scadute e i tipi di richiesta principali. La tabella sotto le schede di stato elenca tutte le richieste create dall'organizzazione, con la richiesta creata più di recente nella parte superiore.
+Selezionare **Richieste di diritti degli interessati Priva** nel riquadro di spostamento a sinistra del portale di conformità di Microsoft Purview per accedere alle richieste create dall'organizzazione e visualizzarne lo stato. Le schede di stato nella pagina principale Richieste di diritti soggetto, visualizzate di seguito, mostrano il numero di richieste attive, chiuse e scadute e i tipi di richiesta principali. La tabella sotto le schede di stato elenca tutte le richieste create dall'organizzazione, con la richiesta creata più di recente nella parte superiore.
 
-Per aprire la pagina dei dettagli di una richiesta, selezionare il nome della richiesta dalla tabella. Qui è possibile ottenere altre informazioni sulle proprietà della richiesta, sui risultati della ricerca e sullo stato della richiesta. Questa pagina diventerà l'hub per lavorare e collaborare alla gestione dei file trovati, alla creazione di report ed esportazioni e al completamento della richiesta.
+**Pagina principale Richieste di diritti dell'oggetto:** 
+![ Pagina principale Richieste di diritti dell'oggetto.](../media/priva-srr-overview.png)
+
+Per aprire la pagina dei dettagli di una richiesta, selezionare il nome della richiesta dalla tabella. Qui è possibile ottenere altre informazioni sulle proprietà della richiesta, sui risultati della ricerca e sullo stato della richiesta. La pagina dei dettagli, visualizzata di seguito, diventerà l'hub per lavorare e collaborare alla gestione dei file trovati, alla creazione di report ed esportazioni e al completamento della richiesta.
+
+**Pagina dei dettagli della richiesta:**
+![ Pagina dei dettagli della richiesta di diritti dell'oggetto.](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>Scheda Panoramica
 

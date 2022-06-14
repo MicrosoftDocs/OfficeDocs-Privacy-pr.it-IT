@@ -17,43 +17,48 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulla panoramica e sul profilo dati in Priva e su come ottenere informazioni dettagliate sui dati personali nell'ambiente Microsoft 365 dell'organizzazione.
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059750"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060061"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Trovare e visualizzare i dati personali in Microsoft Priva
 
 Microsoft Priva consente di comprendere i dati archiviati dall'organizzazione automatizzando l'individuazione degli asset di dati personali e fornendo visualizzazioni di informazioni essenziali. Queste visualizzazioni sono disponibili nelle pagine **di panoramica** e **profilo dati** . È possibile agire sulle informazioni dettagliate qui per rafforzare il comportamento di privacy dell'organizzazione e ridurre i rischi.
 
-Per iniziare, passare alla sezione Priva del portale di [conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
+Per iniziare, passare alla sezione Priva del [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
 
 - **Panoramica**: fornisce una visualizzazione complessiva dei dati dell'organizzazione in Microsoft 365. Gli amministratori della privacy possono monitorare tendenze e attività, identificare e analizzare i potenziali rischi che coinvolgono i dati personali e springboard in attività chiave come la gestione dei criteri o le azioni di richiesta dei diritti degli interessati.
 - **Profilo dati**: fornisce uno snapshot dei dati personali archiviati dall'organizzazione in Microsoft 365. Questa pagina consente di visualizzare la posizione in cui si trovano i dati personali, i tipi più diffusi nell'organizzazione e il numero di tipi diversi esistenti tra le posizioni nell'ambiente Microsoft 365. È anche possibile esplorare i dati personali da questa posizione.
 
-Man mano che i dati cambiano e Priva crea nuovi risultati, le informazioni visualizzate in queste pagine verranno aggiornate. Si noti che potrebbero essere richieste fino a 24 ore prima che i nuovi dati vengano rappresentati nei grafici.
+Man mano che i dati cambiano e Priva nuovi risultati, le informazioni visualizzate in queste pagine verranno aggiornate. Si noti che potrebbero essere richieste fino a 24 ore prima che i nuovi dati vengano rappresentati nei grafici.
 
 ## <a name="explore-the-overview-page"></a>Esplorare la pagina di panoramica
 
-La pagina di panoramica è costituita da tre sezioni principali. I riquadri nella parte superiore della pagina forniscono statistiche recenti essenziali sui dati. La sezione informazioni dettagliate chiave offre opportunità investigative su tendenze e aree di interesse principale. Per altre informazioni sull'ambiente dati, vedere i grafici delle linee di tendenza. Per altre informazioni su queste aree, vedere le sezioni seguenti.
+La pagina **Panoramica Priva** è disponibile per tutti i clienti Priva. La pagina, visualizzata di seguito, è costituita da tre sezioni principali:
 
-![Pagina di panoramica di esempio.](../media/priva-overview.png)
+1. [I riquadri](#top-tiles) nella parte superiore della pagina forniscono statistiche recenti essenziali sui dati. 
+2. La sezione [Informazioni dettagliate chiave](#key-insights) offre opportunità investigative su tendenze e aree di interesse principale.
+3. I [grafici delle linee di tendenza](#trendline-graphs) offrono prospettive aggiuntive sull'ambiente dati.
+
+**Priva pagina Panoramica:**
+![ Pagina di panoramica di esempio.](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>Riquadri principali
 
 #### <a name="policy-matches-over-past-7-days"></a>Corrispondenze dei criteri negli ultimi 7 giorni
 
-Quando i criteri vengono impostati in Priva Privacy Risk Management, i dati verranno valutati in base ai criteri per determinate condizioni che potrebbero presentare rischi per la privacy. Le corrispondenze dei criteri indicano individuazioni di dati che potrebbero richiedere ulteriori verifiche o correzioni. Questo riquadro mostra il numero di corrispondenze di criteri che si sono verificate negli ultimi sette giorni. Le corrispondenze verranno visualizzate qui indipendentemente dal fatto che i criteri siano attivi o in esecuzione in modalità di test, in modo da poter visualizzare i risultati di tutti i criteri attivi. Se si seleziona questo riquadro, verrà visualizzata una visualizzazione filtrata della pagina **Criteri** di Gestione dei rischi per la privacy, che mostra i criteri che hanno avuto una corrispondenza negli ultimi sette giorni.
+Quando i criteri vengono impostati all'interno di Gestione dei rischi per la privacy Priva, i dati verranno valutati in base ai criteri per determinate condizioni che potrebbero presentare rischi per la privacy. Le corrispondenze dei criteri indicano individuazioni di dati che potrebbero richiedere ulteriori verifiche o correzioni. Questo riquadro mostra il numero di corrispondenze di criteri che si sono verificate negli ultimi sette giorni. Le corrispondenze verranno visualizzate qui indipendentemente dal fatto che i criteri siano attivi o in esecuzione in modalità di test, in modo da poter visualizzare i risultati di tutti i criteri attivi. Se si seleziona questo riquadro, verrà visualizzata una visualizzazione filtrata della pagina **Criteri** di Gestione dei rischi per la privacy, che mostra i criteri che hanno avuto una corrispondenza negli ultimi sette giorni.
 
 #### <a name="items-with-personal-data"></a>Elementi con dati personali
 
-Per visualizzare le funzionalità di individuazione automatizzata di Priva sul lavoro, vedere il riquadro **Elementi con dati personali** . Questo riquadro mostra quanti nuovi elementi contenenti dati personali in base alle impostazioni sono stati individuati nell'ambiente Microsoft 365 dell'organizzazione negli ultimi sette giorni. Selezionando questo riquadro verrà caricata una visualizzazione dei 100 elementi più recenti individuati.
+Per visualizzare le funzionalità di individuazione automatizzata di Priva sul lavoro, vedere il riquadro **Elementi con dati personali**. Questo riquadro mostra quanti nuovi elementi contenenti dati personali in base alle impostazioni sono stati individuati nell'ambiente Microsoft 365 dell'organizzazione negli ultimi sette giorni. Selezionando questo riquadro verrà caricata una visualizzazione dei 100 elementi più recenti individuati.
 
 #### <a name="subject-rights-requests"></a>Richieste di diritti dell'interessato
 
-La pagina di panoramica include un riquadro che mostra il numero di richieste di diritti dell'oggetto create negli ultimi sette giorni. Un secondo riquadro, se applicabile, mostra il numero di richieste scadute in base alle scadenze designate e potrebbe richiedere un'attenzione immediata. Se si selezionano questi riquadri, gli utenti avranno le autorizzazioni appropriate per la pagina di richiesta dei diritti dell'oggetto di Priva.
+La pagina di panoramica include un riquadro che mostra il numero di richieste di diritti dell'oggetto create negli ultimi sette giorni. Un secondo riquadro, se applicabile, mostra il numero di richieste scadute in base alle scadenze designate e potrebbe richiedere un'attenzione immediata. Se si selezionano questi riquadri, gli utenti avranno le autorizzazioni appropriate per la pagina Principale diritti soggetto.
 
 ### <a name="key-insights"></a>Informazioni dettagliate chiave
 
@@ -65,7 +70,7 @@ Selezionare **Visualizza riepilogo** per una visualizzazione di riepilogo degli 
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>Criteri con il maggior numero di corrispondenze nell'ultima settimana
 
-Questa panoramica illustra quali criteri sono stati confrontati più frequentemente negli ultimi sette giorni, in modalità "On" o "Testing". Consente di illustrare le prestazioni dei criteri e gli effetti del lavoro in corso man mano che gli utenti Priva affinano i comportamenti di privacy.
+Questa panoramica illustra quali criteri sono stati confrontati più frequentemente negli ultimi sette giorni, in modalità "On" o "Testing". Consente di illustrare le prestazioni dei criteri e gli effetti del lavoro in corso quando gli utenti Priva affinano i comportamenti di privacy.
 
 Selezionare **Visualizza riepilogo** per un riepilogo dei primi 10 criteri corrispondenti e dei proprietari del contenuto associato. Si vedrà anche quante notifiche utente sono state inviate a causa di queste corrispondenze di criteri e il numero di azioni eseguite dall'utente. Selezionare **Analizza** per visualizzare la pagina Criteri in Gestione dei rischi per la privacy, filtrata per visualizzare i criteri dalla visualizzazione di riepilogo. Questa visualizzazione investigativa mostrerà le statistiche per l'intera durata dei criteri. Selezionarlo per visualizzare i dettagli, ad esempio quando sono stati rilevati inizialmente elementi corrispondenti.
 
@@ -91,7 +96,7 @@ Questa area mostra uno snapshot degli avvisi attivi attivati dalle corrispondenz
 
 #### <a name="personal-data-found-in-organization"></a>Dati personali trovati nell'organizzazione
 
-Questo grafico mostra le tendenze relative alla quantità di dati personali corrispondenti alle impostazioni individuate nel tempo nell'ambiente Microsoft 365 e nella posizione in cui si trovano. Inizierà a popolamento dopo che Priva è in esecuzione da tempo sufficiente e dopo che i contenuti con dati personali sono stati trovati all'interno di SharePoint, OneDrive, Teams e/o Exchange.
+Questo grafico mostra le tendenze relative alla quantità di dati personali corrispondenti alle impostazioni individuate nel tempo nell'ambiente Microsoft 365 e nella posizione in cui si trovano. Inizierà a popolamento dopo Priva è stato eseguito per un tempo sufficiente e dopo che i contenuti con dati personali sono stati trovati all'interno di SharePoint, OneDrive, Teams e/o Exchange.
 
 #### <a name="data-transfers-detected-in-organization"></a>Trasferimenti di dati rilevati nell'organizzazione
 
@@ -125,9 +130,10 @@ Questa visualizzazione mappa consente di visualizzare il volume di richieste di 
 
 ## <a name="explore-the-data-profile-page"></a>Esplorare la pagina del profilo dati
 
-La pagina del profilo dati in Priva offre una visualizzazione snapshot dei dati personali archiviati dall'organizzazione in Microsoft 365 e dove si trovano. Fornisce anche informazioni dettagliate sui tipi di dati archiviati. I riquadri principali includono quanto segue.
+La pagina **Profilo dati**, visualizzata di seguito, fornisce una visualizzazione snapshot dei dati personali archiviati dall'organizzazione in Microsoft 365 e dove si trova. Fornisce anche informazioni dettagliate sui tipi di dati archiviati. I grafici nella pagina sono descritti di seguito.
 
-![Pagina del profilo dati di esempio.](../media/priva-dataprofile.png)
+**Priva pagina Profilo dati:**
+![ Pagina del profilo dati di esempio.](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>Istanze del tipo di dati personali rilevate in Microsoft 365
 
@@ -149,4 +155,4 @@ Se si seleziona **Esplora** in qualsiasi riquadro del profilo dati, verrà apert
 
 ## <a name="legal-disclaimer"></a>Legali
 
-[Dichiarazione di non responsabilità legale di Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva dichiarazione di non responsabilità legale](priva-disclaimer.md)
