@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni sulla versione di valutazione Microsoft Priva, vedere azioni consigliate da eseguire durante il periodo di valutazione ed esaminare i collegamenti a una documentazione importante.
-ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046590"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166635"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook di valutazione: Microsoft Priva
 
@@ -69,7 +69,7 @@ Se si è pronti per iniziare a usare Microsoft Priva, seguire questa procedura p
 
 Priva consente di comprendere i dati archiviati dall'organizzazione automatizzando l'individuazione degli asset di dati personali e fornendo visualizzazioni di informazioni essenziali.
 
-Per iniziare, passare alla sezione Priva del [portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
+Per iniziare, passare alla sezione Priva del [Portale di conformità di Microsoft Purview](https://compliance.microsoft.com/) e visualizzare queste pagine:
 
 1. [Panoramica](priva-data-profile.md#explore-the-overview-page): offre una visualizzazione aggregata del comportamento di privacy, inclusi il volume, la categoria, la posizione e lo spostamento dei dati personali nell'ambiente Microsoft 365. Inoltre, si ottiene visibilità sullo stato corrente e sulle tendenze dei rischi associati alla privacy derivanti dalla sovracondivisione, il trasferimento o l'uso dei dati personali.
 1. [Profilo dati](priva-data-profile.md#explore-the-data-profile-page): fornisce uno snapshot dei dati personali archiviati dall'organizzazione in Microsoft 365, inclusi volume, tipo e posizione (archiviazione e geografia).
@@ -138,7 +138,7 @@ In conformità con determinate normative sulla privacy in tutto il mondo, gli in
 
 Gli amministratori di Subject Rights Management possono aprire nuove richieste di diritti dell'oggetto tramite la pagina principale Richieste di diritti dell'oggetto. Una procedura guidata guiderà l'utente nel processo di ricerca dei dati personali relativi a un interessato e di avvio del processo di esecuzione della richiesta.
 
-1. [Usare la procedura guidata per la richiesta di diritti dell'oggetto](subject-rights-requests-create.md#create-a-request) : creare una richiesta
+1. [Usare la procedura guidata per la richiesta di diritti dell'oggetto](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) : creare una richiesta
 1. [Definire le impostazioni di ricerca](subject-rights-requests-create.md#defining-search-settings)
 1. [Perfezionare le impostazioni di ricerca](subject-rights-requests-create.md#refining-your-search)
 

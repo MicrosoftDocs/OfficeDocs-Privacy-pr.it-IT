@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informazioni su come vengono recuperati i dati e su come modificare le impostazioni di ricerca in Richieste di diritti degli interessati Microsoft Priva.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046733"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166665"
 ---
 # <a name="data-estimate-and-retrieval"></a>Stima e recupero dei dati
 
@@ -36,7 +36,7 @@ La richiesta passerà automaticamente alla fase successiva del **recupero dei da
 
 Esistono due motivi per cui una richiesta verrà sospesa nella fase **di stima dei dati** :
 
-1. Quando si crea una richiesta per la prima volta, è possibile scegliere di ottenere prima una stima. Per informazioni dettagliate, vedere il passaggio 5 in [Creare una richiesta](subject-rights-requests-create.md#create-a-request) .
+1. Quando si crea una richiesta, è possibile scegliere di ottenere prima una stima. Per informazioni dettagliate, vedere il passaggio 6 della [creazione di una richiesta personalizzata](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) .
 
 2. Se si prevede che la stima restituisca un numero elevato di elementi da esaminare (oltre 10.000 elementi), il flusso di lavoro viene sospeso. A questo punto è possibile visualizzare in anteprima i risultati e decidere se [modificare la query di ricerca](subject-rights-requests-create.md#refining-your-search) o continuare a recuperare gli elementi identificati.
 
@@ -59,7 +59,7 @@ Quando si è pronti per procedere, selezionare Recupera **dati** in alto a destr
 
 ## <a name="retrieve-data"></a>Recuperare i dati
 
-La fase di recupero dei dati si verifica quando vengono recuperati tutti i file, i messaggi di posta elettronica, le chat, le immagini e altri elementi di contenuto contenenti i dati personali dell'interessato. Gli elementi vengono raggruppati in un contenitore di archiviazione BLOB di Azure per la revisione. Il recupero dei dati può richiedere alcuni minuti o molto più a seconda del volume di dati.
+La fase di recupero dei dati si verifica quando vengono recuperati tutti i file, i messaggi di posta elettronica, le chat, le immagini e altri elementi di contenuto contenenti i dati personali dell'interessato. Gli elementi vengono raggruppati in un contenitore Archiviazione BLOB di Azure per la revisione. Il recupero dei dati può richiedere alcuni minuti o molto più a seconda del volume di dati.
 
 Al termine di questa fase, la richiesta passa automaticamente alla fase successiva di **Revisione dei dati**.
 
